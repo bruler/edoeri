@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="TestPAL">
+  <File Name="/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Programs/TestPAL/TestPAL.Target.cs" />
+  <File Name="/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Programs/TestPAL/TestPAL.Build.cs" />
+  <VirtualDirectory Name="Private">
+    <File Name="/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Programs/TestPAL/Private/Main.cpp" />
+    <File Name="/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Programs/TestPAL/Private/Parent.cpp" />
+    <File Name="/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Programs/TestPAL/Private/Parent.h" />
+    <File Name="/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Programs/TestPAL/Private/PrivatePCH.h" />
+    <File Name="/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Programs/TestPAL/Private/TestDirectoryWatcher.cpp" />
+    <File Name="/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Programs/TestPAL/Private/TestDirectoryWatcher.h" />
+  </VirtualDirectory>
+  <Settings>
+    <Settings />
+    <Configuration Name="Debug">
+      <General WorkingDirectory="/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/Linux" Command="./TestPAL-Linux-Debug" />
+      <General WorkingDirectory="/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/Linux" Command="./TestPAL-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe TestPAL Linux Debug -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe TestPAL Linux Debug -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe TestPAL Linux Debug -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject" -clean
+mono UnrealBuildTool.exe TestPAL Linux Debug -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General WorkingDirectory="/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/Linux" Command="./TestPAL-Linux-DebugGame" />
+      <General WorkingDirectory="/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/Linux" Command="./TestPAL-Linux-DebugGame" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe TestPAL Linux DebugGame -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe TestPAL Linux DebugGame -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe TestPAL Linux DebugGame -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject" -clean
+mono UnrealBuildTool.exe TestPAL Linux DebugGame -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General WorkingDirectory="/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/Linux" Command="./TestPAL" />
+      <General WorkingDirectory="/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/Linux" Command="./TestPAL" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe TestPAL Linux Development -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe TestPAL Linux Development -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe TestPAL Linux Development -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject" -clean
+mono UnrealBuildTool.exe TestPAL Linux Development -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General WorkingDirectory="/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/Linux" Command="./TestPAL-Linux-Shipping" />
+      <General WorkingDirectory="/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/Linux" Command="./TestPAL-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe TestPAL Linux Shipping -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe TestPAL Linux Shipping -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe TestPAL Linux Shipping -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject" -clean
+mono UnrealBuildTool.exe TestPAL Linux Shipping -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General WorkingDirectory="/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/Linux" Command="./TestPAL-Linux-Test" />
+      <General WorkingDirectory="/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/Linux" Command="./TestPAL-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe TestPAL Linux Test -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe TestPAL Linux Test -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe TestPAL Linux Test -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject" -clean
+mono UnrealBuildTool.exe TestPAL Linux Test -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+</CodeLite_Project>

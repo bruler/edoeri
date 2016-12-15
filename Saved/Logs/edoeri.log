@@ -1,0 +1,1567 @@
+﻿Log file open, 12/16/16 00:02:06
+LogInit:Display: Running engine for game: edoeri
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(406500944) SRandInit(406500948).
+LogTaskGraph: Started task graph with 4 named threads and 5 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.027297
+LogInit:Warning: Incompatible or missing module: libUE4Editor-edoeri.so
+LogInit: Initializing SDL.
+LogInit: Initialized SDL 2.0.4 (compiled against 2.0.4)
+LogInit: Display metrics:
+LogInit:   PrimaryDisplayWidth: 1920
+LogInit:   PrimaryDisplayHeight: 1080
+LogInit:   PrimaryDisplayWorkAreaRect:
+LogInit:     Left=46, Top=21, Right=1920, Bottom=1080
+LogInit:   VirtualDisplayRect:
+LogInit:     Left=46, Top=21, Right=1920, Bottom=1080
+LogInit:   TitleSafePaddingSize: X=0.000 Y=0.000
+LogInit:   ActionSafePaddingSize: X=0.000 Y=0.000
+LogInit:   Number of monitors: 1
+LogInit:     Monitor 0
+LogInit:       Name: HP 24es 24"
+LogInit:       ID: display0
+LogInit:       NativeWidth: 1920
+LogInit:       NativeHeight: 1080
+LogInit:       bIsPrimary: true
+LogDesktopPlatform: DesktopPlatformLinux is not using LinuxNativeDialogs.
+Running /home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/DotNET/UnrealBuildTool.exe edoeri Development Linux -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject" -editorrecompile -progress -noubtmakefiles -NoHotReloadFromIDE
+LogHAL: FLinuxPlatformProcess::CreateProc: '/usr/bin/mono "/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/DotNET/UnrealBuildTool.exe" edoeri Development Linux -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject" -editorrecompile -progress -noubtmakefiles -NoHotReloadFromIDE'
+LogHAL: FLinuxPlatformProcess::CreateProc: spawned child 27647
+Using clang version '3.8.0' (string), 3 (major), 8 (minor), 0 (patch)
+@progress push 5%
+Building UnrealHeaderTool...
+Using clang version '3.8.0' (string), 3 (major), 8 (minor), 0 (patch)
+Creating makefile for UnrealHeaderTool (no existing makefile)
+Performing 22 actions (4 in parallel)
+[1/22] Compile CorePrivatePCH.h
+[2/22] Compile Module.Json.cpp
+[3/22] Compile Module.Projects.cpp
+[4/22] Compile Module.CoreUObject.2_of_5.cpp
+[5/22] Compile Module.Core.8_of_8.cpp
+[6/22] Compile Module.Core.7_of_8.cpp
+[7/22] Compile Module.Core.6_of_8.cpp
+[8/22] Compile Module.Core.5_of_8.cpp
+[9/22] Compile Module.Core.4_of_8.cpp
+[10/22] Compile Module.Core.3_of_8.cpp
+[11/22] Compile Module.Core.2_of_8.cpp
+[12/22] Compile Module.Core.1_of_8.cpp
+[13/22] Compile Module.CoreUObject.1_of_5.cpp
+[14/22] Compile Module.CoreUObject.4_of_5.cpp
+[15/22] Compile Module.CoreUObject.5_of_5.cpp
+[16/22] Link libUnrealHeaderTool-Core.so
+[17/22] Link libUnrealHeaderTool-Json.so
+[18/22] Link libUnrealHeaderTool-Projects.so
+[19/22] Compile Module.CoreUObject.3_of_5.cpp
+[20/22] Compile Module.UnrealHeaderTool.cpp
+[21/22] Link libUnrealHeaderTool-CoreUObject.so
+[22/22] Link UnrealHeaderTool
+Total build time: 144.19 seconds
+Parsing headers for edoeriEditor
+  Running UnrealHeaderTool "/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject" "/home/cortana/Projects/UnrealProjects/edoeri/Intermediate/Build/Linux/B4D820EA/edoeriEditor/Development/edoeriEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors
+Using jemalloc.
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(584635395) SRandInit(584635399).
+LogTaskGraph: Started task graph with 3 named threads and 4 total threads with 1 sets of task threads.
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+[2016.12.15-18.35.02:018][  0]LogTextLocalizationManager: No translations for ('') exist, falling back to 'en' for localization and internationalization data.
+[2016.12.15-18.35.02:018][  0]LogCompile: UHT Command Line: /home/cortana/UnrealEngine-4.12.5-release/Engine/Source/../Binaries/Linux/UnrealHeaderTool /home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject /home/cortana/Projects/UnrealProjects/edoeri/Intermediate/Build/Linux/B4D820EA/edoeriEditor/Development/edoeriEditor.uhtmanifest "-LogCmds=loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors
+[2016.12.15-18.35.02:027][  0]LogCompile: Loaded manifest: /home/cortana/Projects/UnrealProjects/edoeri/Intermediate/Build/Linux/B4D820EA/edoeriEditor/Development/edoeriEditor.uhtmanifest
+[2016.12.15-18.35.02:027][  0]LogCompile: Manifest.IsGameTarget=True
+[2016.12.15-18.35.02:027][  0]LogCompile: Manifest.RootLocalPath=/home/cortana/UnrealEngine-4.12.5-release
+[2016.12.15-18.35.02:027][  0]LogCompile: Manifest.RootBuildPath=/home/cortana/UnrealEngine-4.12.5-release/
+[2016.12.15-18.35.02:027][  0]LogCompile: Manifest.TargetName=edoeriEditor
+[2016.12.15-18.35.02:027][  0]LogCompile: Manifest.Modules=124
+[2016.12.15-18.35.02:028][  0]LogCompile:   CoreUObject
+[2016.12.15-18.35.02:028][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/CoreUObject/
+[2016.12.15-18.35.02:028][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/CoreUObject/
+[2016.12.15-18.35.02:028][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CoreUObject/
+[2016.12.15-18.35.02:028][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:028][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CoreUObject/CoreUObject.generated
+[2016.12.15-18.35.02:028][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:028][  0]LogCompile:   InputCore
+[2016.12.15-18.35.02:028][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/InputCore/
+[2016.12.15-18.35.02:028][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/InputCore/
+[2016.12.15-18.35.02:028][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/InputCore/
+[2016.12.15-18.35.02:028][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:028][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/InputCore/InputCore.generated
+[2016.12.15-18.35.02:028][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:028][  0]LogCompile:   SlateCore
+[2016.12.15-18.35.02:028][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/SlateCore/
+[2016.12.15-18.35.02:028][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/SlateCore/
+[2016.12.15-18.35.02:028][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SlateCore/
+[2016.12.15-18.35.02:028][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:028][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SlateCore/SlateCore.generated
+[2016.12.15-18.35.02:028][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:028][  0]LogCompile:   Slate
+[2016.12.15-18.35.02:028][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/Slate/
+[2016.12.15-18.35.02:028][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/Slate/
+[2016.12.15-18.35.02:028][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Slate/
+[2016.12.15-18.35.02:028][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:028][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Slate/Slate.generated
+[2016.12.15-18.35.02:028][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:028][  0]LogCompile:   SourceCodeAccess
+[2016.12.15-18.35.02:028][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Developer/SourceCodeAccess/
+[2016.12.15-18.35.02:028][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Developer/SourceCodeAccess/
+[2016.12.15-18.35.02:028][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SourceCodeAccess/
+[2016.12.15-18.35.02:028][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:028][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SourceCodeAccess/SourceCodeAccess.generated
+[2016.12.15-18.35.02:028][  0]LogCompile:   .ModuleType=EngineDeveloper
+[2016.12.15-18.35.02:028][  0]LogCompile:   EngineMessages
+[2016.12.15-18.35.02:028][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/EngineMessages/
+[2016.12.15-18.35.02:028][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/EngineMessages/
+[2016.12.15-18.35.02:028][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/EngineMessages/
+[2016.12.15-18.35.02:028][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:028][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/EngineMessages/EngineMessages.generated
+[2016.12.15-18.35.02:028][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:028][  0]LogCompile:   SessionMessages
+[2016.12.15-18.35.02:028][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/SessionMessages/
+[2016.12.15-18.35.02:028][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/SessionMessages/
+[2016.12.15-18.35.02:028][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SessionMessages/
+[2016.12.15-18.35.02:028][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:028][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SessionMessages/SessionMessages.generated
+[2016.12.15-18.35.02:028][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:028][  0]LogCompile:   SlateReflector
+[2016.12.15-18.35.02:028][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Developer/SlateReflector/
+[2016.12.15-18.35.02:028][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Developer/SlateReflector/
+[2016.12.15-18.35.02:028][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SlateReflector/
+[2016.12.15-18.35.02:028][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:028][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SlateReflector/SlateReflector.generated
+[2016.12.15-18.35.02:028][  0]LogCompile:   .ModuleType=EngineDeveloper
+[2016.12.15-18.35.02:028][  0]LogCompile:   MessagingRpc
+[2016.12.15-18.35.02:028][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/MessagingRpc/
+[2016.12.15-18.35.02:028][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/MessagingRpc/
+[2016.12.15-18.35.02:028][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MessagingRpc/
+[2016.12.15-18.35.02:028][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:028][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MessagingRpc/MessagingRpc.generated
+[2016.12.15-18.35.02:028][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:028][  0]LogCompile:   PortalRpc
+[2016.12.15-18.35.02:028][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/Portal/Rpc/
+[2016.12.15-18.35.02:028][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/Portal/Rpc/
+[2016.12.15-18.35.02:028][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PortalRpc/
+[2016.12.15-18.35.02:028][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:028][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PortalRpc/PortalRpc.generated
+[2016.12.15-18.35.02:028][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:028][  0]LogCompile:   PortalServices
+[2016.12.15-18.35.02:028][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/Portal/Services/
+[2016.12.15-18.35.02:028][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/Portal/Services/
+[2016.12.15-18.35.02:028][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PortalServices/
+[2016.12.15-18.35.02:028][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:028][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PortalServices/PortalServices.generated
+[2016.12.15-18.35.02:028][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:028][  0]LogCompile:   EngineSettings
+[2016.12.15-18.35.02:028][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/EngineSettings/
+[2016.12.15-18.35.02:029][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/EngineSettings/
+[2016.12.15-18.35.02:029][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/EngineSettings/
+[2016.12.15-18.35.02:029][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:029][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/EngineSettings/EngineSettings.generated
+[2016.12.15-18.35.02:029][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:029][  0]LogCompile:   PacketHandler
+[2016.12.15-18.35.02:029][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/PacketHandlers/PacketHandler/
+[2016.12.15-18.35.02:029][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/PacketHandlers/PacketHandler/
+[2016.12.15-18.35.02:029][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PacketHandler/
+[2016.12.15-18.35.02:029][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:029][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PacketHandler/PacketHandler.generated
+[2016.12.15-18.35.02:029][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:029][  0]LogCompile:   Serialization
+[2016.12.15-18.35.02:029][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/Serialization/
+[2016.12.15-18.35.02:029][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/Serialization/
+[2016.12.15-18.35.02:029][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Serialization/
+[2016.12.15-18.35.02:029][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:029][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Serialization/Serialization.generated
+[2016.12.15-18.35.02:029][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:029][  0]LogCompile:   AutomationMessages
+[2016.12.15-18.35.02:029][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/AutomationMessages/
+[2016.12.15-18.35.02:029][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/AutomationMessages/
+[2016.12.15-18.35.02:029][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AutomationMessages/
+[2016.12.15-18.35.02:029][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:029][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AutomationMessages/AutomationMessages.generated
+[2016.12.15-18.35.02:029][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:029][  0]LogCompile:   JsonUtilities
+[2016.12.15-18.35.02:029][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/JsonUtilities/
+[2016.12.15-18.35.02:029][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/JsonUtilities/
+[2016.12.15-18.35.02:029][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/JsonUtilities/
+[2016.12.15-18.35.02:029][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:029][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/JsonUtilities/JsonUtilities.generated
+[2016.12.15-18.35.02:029][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:029][  0]LogCompile:   OnlineSubsystem
+[2016.12.15-18.35.02:029][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/Online/OnlineSubsystem/
+[2016.12.15-18.35.02:029][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/Online/OnlineSubsystem/
+[2016.12.15-18.35.02:029][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/OnlineSubsystem/
+[2016.12.15-18.35.02:029][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:029][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/OnlineSubsystem/OnlineSubsystem.generated
+[2016.12.15-18.35.02:029][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:029][  0]LogCompile:   IOSRuntimeSettings
+[2016.12.15-18.35.02:029][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/IOS/IOSRuntimeSettings/
+[2016.12.15-18.35.02:029][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/IOS/IOSRuntimeSettings/
+[2016.12.15-18.35.02:029][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/IOSRuntimeSettings/
+[2016.12.15-18.35.02:029][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:029][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/IOSRuntimeSettings/IOSRuntimeSettings.generated
+[2016.12.15-18.35.02:029][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:029][  0]LogCompile:   PortalMessages
+[2016.12.15-18.35.02:029][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/Portal/Messages/
+[2016.12.15-18.35.02:029][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/Portal/Messages/
+[2016.12.15-18.35.02:029][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PortalMessages/
+[2016.12.15-18.35.02:029][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:029][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PortalMessages/PortalMessages.generated
+[2016.12.15-18.35.02:029][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:029][  0]LogCompile:   LaunchDaemonMessages
+[2016.12.15-18.35.02:029][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/IOS/LaunchDaemonMessages/
+[2016.12.15-18.35.02:029][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/IOS/LaunchDaemonMessages/
+[2016.12.15-18.35.02:029][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LaunchDaemonMessages/
+[2016.12.15-18.35.02:029][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:029][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LaunchDaemonMessages/LaunchDaemonMessages.generated
+[2016.12.15-18.35.02:029][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:029][  0]LogCompile:   EditorStyle
+[2016.12.15-18.35.02:029][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/EditorStyle/
+[2016.12.15-18.35.02:029][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/EditorStyle/
+[2016.12.15-18.35.02:029][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/EditorStyle/
+[2016.12.15-18.35.02:029][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:029][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/EditorStyle/EditorStyle.generated
+[2016.12.15-18.35.02:029][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:029][  0]LogCompile:   WidgetCarousel
+[2016.12.15-18.35.02:029][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Developer/WidgetCarousel/
+[2016.12.15-18.35.02:029][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Developer/WidgetCarousel/
+[2016.12.15-18.35.02:029][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/WidgetCarousel/
+[2016.12.15-18.35.02:029][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:030][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/WidgetCarousel/WidgetCarousel.generated
+[2016.12.15-18.35.02:030][  0]LogCompile:   .ModuleType=EngineDeveloper
+[2016.12.15-18.35.02:030][  0]LogCompile:   UnrealEdMessages
+[2016.12.15-18.35.02:030][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/UnrealEdMessages/
+[2016.12.15-18.35.02:030][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/UnrealEdMessages/
+[2016.12.15-18.35.02:030][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/UnrealEdMessages/
+[2016.12.15-18.35.02:030][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:030][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/UnrealEdMessages/UnrealEdMessages.generated
+[2016.12.15-18.35.02:030][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:030][  0]LogCompile:   ProfilerMessages
+[2016.12.15-18.35.02:030][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Developer/ProfilerMessages/
+[2016.12.15-18.35.02:030][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Developer/ProfilerMessages/
+[2016.12.15-18.35.02:030][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ProfilerMessages/
+[2016.12.15-18.35.02:030][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:030][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ProfilerMessages/ProfilerMessages.generated
+[2016.12.15-18.35.02:030][  0]LogCompile:   .ModuleType=EngineDeveloper
+[2016.12.15-18.35.02:030][  0]LogCompile:   SwarmInterface
+[2016.12.15-18.35.02:030][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/SwarmInterface/
+[2016.12.15-18.35.02:030][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/SwarmInterface/
+[2016.12.15-18.35.02:030][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SwarmInterface/
+[2016.12.15-18.35.02:030][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:030][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SwarmInterface/SwarmInterface.generated
+[2016.12.15-18.35.02:030][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:031][  0]LogCompile:   Engine
+[2016.12.15-18.35.02:031][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/Engine/
+[2016.12.15-18.35.02:031][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/Engine/
+[2016.12.15-18.35.02:031][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Engine/
+[2016.12.15-18.35.02:031][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:031][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Engine/Engine.generated
+[2016.12.15-18.35.02:031][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:031][  0]LogCompile:   MoviePlayer
+[2016.12.15-18.35.02:031][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/MoviePlayer/
+[2016.12.15-18.35.02:031][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/MoviePlayer/
+[2016.12.15-18.35.02:031][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MoviePlayer/
+[2016.12.15-18.35.02:031][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:031][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MoviePlayer/MoviePlayer.generated
+[2016.12.15-18.35.02:031][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:032][  0]LogCompile:   HeadMountedDisplay
+[2016.12.15-18.35.02:032][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/HeadMountedDisplay/
+[2016.12.15-18.35.02:032][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/HeadMountedDisplay/
+[2016.12.15-18.35.02:032][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/HeadMountedDisplay/
+[2016.12.15-18.35.02:032][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:032][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/HeadMountedDisplay/HeadMountedDisplay.generated
+[2016.12.15-18.35.02:032][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:032][  0]LogCompile:   MovieScene
+[2016.12.15-18.35.02:032][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/MovieScene/
+[2016.12.15-18.35.02:032][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/MovieScene/
+[2016.12.15-18.35.02:032][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MovieScene/
+[2016.12.15-18.35.02:032][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:032][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MovieScene/MovieScene.generated
+[2016.12.15-18.35.02:032][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:032][  0]LogCompile:   MovieSceneTracks
+[2016.12.15-18.35.02:032][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/MovieSceneTracks/
+[2016.12.15-18.35.02:032][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/MovieSceneTracks/
+[2016.12.15-18.35.02:032][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MovieSceneTracks/
+[2016.12.15-18.35.02:032][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:032][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MovieSceneTracks/MovieSceneTracks.generated
+[2016.12.15-18.35.02:032][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:032][  0]LogCompile:   LevelSequence
+[2016.12.15-18.35.02:032][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/LevelSequence/
+[2016.12.15-18.35.02:032][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/LevelSequence/
+[2016.12.15-18.35.02:032][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LevelSequence/
+[2016.12.15-18.35.02:032][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:032][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LevelSequence/LevelSequence.generated
+[2016.12.15-18.35.02:032][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:032][  0]LogCompile:   GameplayTags
+[2016.12.15-18.35.02:032][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/GameplayTags/
+[2016.12.15-18.35.02:032][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/GameplayTags/
+[2016.12.15-18.35.02:032][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GameplayTags/
+[2016.12.15-18.35.02:032][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:032][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GameplayTags/GameplayTags.generated
+[2016.12.15-18.35.02:032][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:032][  0]LogCompile:   GameplayTasks
+[2016.12.15-18.35.02:032][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/GameplayTasks/
+[2016.12.15-18.35.02:032][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/GameplayTasks/
+[2016.12.15-18.35.02:032][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GameplayTasks/
+[2016.12.15-18.35.02:032][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:032][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GameplayTasks/GameplayTasks.generated
+[2016.12.15-18.35.02:032][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:032][  0]LogCompile:   AIModule
+[2016.12.15-18.35.02:032][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/AIModule/
+[2016.12.15-18.35.02:032][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/AIModule/
+[2016.12.15-18.35.02:032][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AIModule/
+[2016.12.15-18.35.02:032][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:032][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AIModule/AIModule.generated
+[2016.12.15-18.35.02:032][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:033][  0]LogCompile:   MaterialShaderQualitySettings
+[2016.12.15-18.35.02:033][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/MaterialShaderQualitySettings/
+[2016.12.15-18.35.02:033][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/MaterialShaderQualitySettings/
+[2016.12.15-18.35.02:033][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MaterialShaderQualitySettings/
+[2016.12.15-18.35.02:033][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:033][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MaterialShaderQualitySettings/MaterialShaderQualitySettings.generated
+[2016.12.15-18.35.02:033][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:033][  0]LogCompile:   Foliage
+[2016.12.15-18.35.02:033][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/Foliage/
+[2016.12.15-18.35.02:033][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/Foliage/
+[2016.12.15-18.35.02:033][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Foliage/
+[2016.12.15-18.35.02:033][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:033][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Foliage/Foliage.generated
+[2016.12.15-18.35.02:033][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:033][  0]LogCompile:   Landscape
+[2016.12.15-18.35.02:033][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/Landscape/
+[2016.12.15-18.35.02:033][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/Landscape/
+[2016.12.15-18.35.02:033][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Landscape/
+[2016.12.15-18.35.02:033][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:033][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Landscape/Landscape.generated
+[2016.12.15-18.35.02:033][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:033][  0]LogCompile:   WebBrowser
+[2016.12.15-18.35.02:033][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/WebBrowser/
+[2016.12.15-18.35.02:033][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/WebBrowser/
+[2016.12.15-18.35.02:033][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/WebBrowser/
+[2016.12.15-18.35.02:033][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:033][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/WebBrowser/WebBrowser.generated
+[2016.12.15-18.35.02:033][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:033][  0]LogCompile:   CinematicCamera
+[2016.12.15-18.35.02:033][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/CinematicCamera/
+[2016.12.15-18.35.02:033][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/CinematicCamera/
+[2016.12.15-18.35.02:033][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CinematicCamera/
+[2016.12.15-18.35.02:033][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:033][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CinematicCamera/CinematicCamera.generated
+[2016.12.15-18.35.02:033][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:033][  0]LogCompile:   MovieSceneCapture
+[2016.12.15-18.35.02:033][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/MovieSceneCapture/
+[2016.12.15-18.35.02:033][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/MovieSceneCapture/
+[2016.12.15-18.35.02:033][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MovieSceneCapture/
+[2016.12.15-18.35.02:033][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:033][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MovieSceneCapture/MovieSceneCapture.generated
+[2016.12.15-18.35.02:033][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:033][  0]LogCompile:   UMG
+[2016.12.15-18.35.02:033][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/UMG/
+[2016.12.15-18.35.02:033][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/UMG/
+[2016.12.15-18.35.02:033][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/UMG/
+[2016.12.15-18.35.02:033][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:033][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/UMG/UMG.generated
+[2016.12.15-18.35.02:033][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:033][  0]LogCompile:   VectorVM
+[2016.12.15-18.35.02:033][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/VectorVM/
+[2016.12.15-18.35.02:033][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/VectorVM/
+[2016.12.15-18.35.02:033][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/VectorVM/
+[2016.12.15-18.35.02:033][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:033][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/VectorVM/VectorVM.generated
+[2016.12.15-18.35.02:033][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:033][  0]LogCompile:   Niagara
+[2016.12.15-18.35.02:033][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/Niagara/
+[2016.12.15-18.35.02:034][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/Niagara/
+[2016.12.15-18.35.02:034][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Niagara/
+[2016.12.15-18.35.02:034][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:034][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Niagara/Niagara.generated
+[2016.12.15-18.35.02:034][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:034][  0]LogCompile:   AnimGraphRuntime
+[2016.12.15-18.35.02:034][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/AnimGraphRuntime/
+[2016.12.15-18.35.02:034][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/AnimGraphRuntime/
+[2016.12.15-18.35.02:034][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AnimGraphRuntime/
+[2016.12.15-18.35.02:034][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:034][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AnimGraphRuntime/AnimGraphRuntime.generated
+[2016.12.15-18.35.02:034][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:034][  0]LogCompile:   OnlineSubsystemUtils
+[2016.12.15-18.35.02:034][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/Online/OnlineSubsystemUtils/
+[2016.12.15-18.35.02:034][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/Online/OnlineSubsystemUtils/
+[2016.12.15-18.35.02:034][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/OnlineSubsystemUtils/
+[2016.12.15-18.35.02:034][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:034][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/OnlineSubsystemUtils/OnlineSubsystemUtils.generated
+[2016.12.15-18.35.02:034][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:034][  0]LogCompile:   LightPropagationVolumeRuntime
+[2016.12.15-18.35.02:034][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Blendables/LightPropagationVolume/Source/LightPropagationVolumeRuntime/
+[2016.12.15-18.35.02:034][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Blendables/LightPropagationVolume/Source/LightPropagationVolumeRuntime/
+[2016.12.15-18.35.02:034][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Blendables/LightPropagationVolume/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LightPropagationVolumeRuntime/
+[2016.12.15-18.35.02:034][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:034][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Blendables/LightPropagationVolume/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LightPropagationVolumeRuntime/LightPropagationVolumeRuntime.generated
+[2016.12.15-18.35.02:034][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:034][  0]LogCompile:   GameplayAbilities
+[2016.12.15-18.35.02:034][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/GameplayAbilities/
+[2016.12.15-18.35.02:034][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/GameplayAbilities/
+[2016.12.15-18.35.02:034][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GameplayAbilities/
+[2016.12.15-18.35.02:034][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:034][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GameplayAbilities/GameplayAbilities.generated
+[2016.12.15-18.35.02:034][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:034][  0]LogCompile:   GameLiveStreaming
+[2016.12.15-18.35.02:034][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/GameLiveStreaming/
+[2016.12.15-18.35.02:034][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/GameLiveStreaming/
+[2016.12.15-18.35.02:034][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GameLiveStreaming/
+[2016.12.15-18.35.02:034][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:034][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GameLiveStreaming/GameLiveStreaming.generated
+[2016.12.15-18.35.02:034][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:034][  0]LogCompile:   GeometryCache
+[2016.12.15-18.35.02:034][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/GeometryCache/
+[2016.12.15-18.35.02:034][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/GeometryCache/
+[2016.12.15-18.35.02:034][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GeometryCache/
+[2016.12.15-18.35.02:034][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:034][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GeometryCache/GeometryCache.generated
+[2016.12.15-18.35.02:034][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:034][  0]LogCompile:   GameplayDebugger
+[2016.12.15-18.35.02:034][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Developer/GameplayDebugger/
+[2016.12.15-18.35.02:034][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Developer/GameplayDebugger/
+[2016.12.15-18.35.02:034][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GameplayDebugger/
+[2016.12.15-18.35.02:034][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:034][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GameplayDebugger/GameplayDebugger.generated
+[2016.12.15-18.35.02:034][  0]LogCompile:   .ModuleType=EngineDeveloper
+[2016.12.15-18.35.02:034][  0]LogCompile:   FunctionalTesting
+[2016.12.15-18.35.02:035][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Developer/FunctionalTesting/
+[2016.12.15-18.35.02:035][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Developer/FunctionalTesting/
+[2016.12.15-18.35.02:035][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/FunctionalTesting/
+[2016.12.15-18.35.02:035][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:035][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/FunctionalTesting/FunctionalTesting.generated
+[2016.12.15-18.35.02:035][  0]LogCompile:   .ModuleType=EngineDeveloper
+[2016.12.15-18.35.02:035][  0]LogCompile:   BlueprintNativeCodeGen
+[2016.12.15-18.35.02:035][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Developer/BlueprintNativeCodeGen/
+[2016.12.15-18.35.02:035][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Developer/BlueprintNativeCodeGen/
+[2016.12.15-18.35.02:035][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/BlueprintNativeCodeGen/
+[2016.12.15-18.35.02:035][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:035][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/BlueprintNativeCodeGen/BlueprintNativeCodeGen.generated
+[2016.12.15-18.35.02:035][  0]LogCompile:   .ModuleType=EngineDeveloper
+[2016.12.15-18.35.02:035][  0]LogCompile:   TargetDeviceServices
+[2016.12.15-18.35.02:035][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Developer/TargetDeviceServices/
+[2016.12.15-18.35.02:035][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Developer/TargetDeviceServices/
+[2016.12.15-18.35.02:035][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TargetDeviceServices/
+[2016.12.15-18.35.02:035][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:035][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TargetDeviceServices/TargetDeviceServices.generated
+[2016.12.15-18.35.02:035][  0]LogCompile:   .ModuleType=EngineDeveloper
+[2016.12.15-18.35.02:035][  0]LogCompile:   InternationalizationSettings
+[2016.12.15-18.35.02:035][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Developer/InternationalizationSettings/
+[2016.12.15-18.35.02:035][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Developer/InternationalizationSettings/
+[2016.12.15-18.35.02:035][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/InternationalizationSettings/
+[2016.12.15-18.35.02:035][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:035][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/InternationalizationSettings/InternationalizationSettings.generated
+[2016.12.15-18.35.02:035][  0]LogCompile:   .ModuleType=EngineDeveloper
+[2016.12.15-18.35.02:035][  0]LogCompile:   SuperSearch
+[2016.12.15-18.35.02:035][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Developer/SuperSearch/
+[2016.12.15-18.35.02:035][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Developer/SuperSearch/
+[2016.12.15-18.35.02:035][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SuperSearch/
+[2016.12.15-18.35.02:035][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:035][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SuperSearch/SuperSearch.generated
+[2016.12.15-18.35.02:035][  0]LogCompile:   .ModuleType=EngineDeveloper
+[2016.12.15-18.35.02:035][  0]LogCompile:   AITestSuite
+[2016.12.15-18.35.02:035][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Developer/AITestSuite/
+[2016.12.15-18.35.02:035][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Developer/AITestSuite/
+[2016.12.15-18.35.02:035][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AITestSuite/
+[2016.12.15-18.35.02:035][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:035][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AITestSuite/AITestSuite.generated
+[2016.12.15-18.35.02:035][  0]LogCompile:   .ModuleType=EngineDeveloper
+[2016.12.15-18.35.02:035][  0]LogCompile:   HTML5PlatformEditor
+[2016.12.15-18.35.02:035][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Developer/HTML5/HTML5PlatformEditor/
+[2016.12.15-18.35.02:035][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Developer/HTML5/HTML5PlatformEditor/
+[2016.12.15-18.35.02:035][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/HTML5PlatformEditor/
+[2016.12.15-18.35.02:035][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:035][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/HTML5PlatformEditor/HTML5PlatformEditor.generated
+[2016.12.15-18.35.02:035][  0]LogCompile:   .ModuleType=EngineDeveloper
+[2016.12.15-18.35.02:035][  0]LogCompile:   LogVisualizer
+[2016.12.15-18.35.02:035][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Developer/LogVisualizer/
+[2016.12.15-18.35.02:035][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Developer/LogVisualizer/
+[2016.12.15-18.35.02:035][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LogVisualizer/
+[2016.12.15-18.35.02:035][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:035][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LogVisualizer/LogVisualizer.generated
+[2016.12.15-18.35.02:035][  0]LogCompile:   .ModuleType=EngineDeveloper
+[2016.12.15-18.35.02:035][  0]LogCompile:   LinuxTargetPlatform
+[2016.12.15-18.35.02:035][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Developer/Linux/LinuxTargetPlatform/
+[2016.12.15-18.35.02:035][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Developer/Linux/LinuxTargetPlatform/
+[2016.12.15-18.35.02:035][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LinuxTargetPlatform/
+[2016.12.15-18.35.02:035][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:035][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LinuxTargetPlatform/LinuxTargetPlatform.generated
+[2016.12.15-18.35.02:035][  0]LogCompile:   .ModuleType=EngineDeveloper
+[2016.12.15-18.35.02:035][  0]LogCompile:   TextureEditor
+[2016.12.15-18.35.02:035][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/TextureEditor/
+[2016.12.15-18.35.02:035][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/TextureEditor/
+[2016.12.15-18.35.02:035][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TextureEditor/
+[2016.12.15-18.35.02:035][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:035][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TextureEditor/TextureEditor.generated
+[2016.12.15-18.35.02:036][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:036][  0]LogCompile:   BlueprintGraph
+[2016.12.15-18.35.02:036][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/BlueprintGraph/
+[2016.12.15-18.35.02:036][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/BlueprintGraph/
+[2016.12.15-18.35.02:036][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/BlueprintGraph/
+[2016.12.15-18.35.02:036][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:036][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/BlueprintGraph/BlueprintGraph.generated
+[2016.12.15-18.35.02:036][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:036][  0]LogCompile:   GraphEditor
+[2016.12.15-18.35.02:036][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/GraphEditor/
+[2016.12.15-18.35.02:036][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/GraphEditor/
+[2016.12.15-18.35.02:036][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GraphEditor/
+[2016.12.15-18.35.02:036][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:036][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GraphEditor/GraphEditor.generated
+[2016.12.15-18.35.02:036][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:036][  0]LogCompile:   NewsFeed
+[2016.12.15-18.35.02:036][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/NewsFeed/
+[2016.12.15-18.35.02:036][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/NewsFeed/
+[2016.12.15-18.35.02:036][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/NewsFeed/
+[2016.12.15-18.35.02:036][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:036][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/NewsFeed/NewsFeed.generated
+[2016.12.15-18.35.02:036][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:036][  0]LogCompile:   StatsViewer
+[2016.12.15-18.35.02:036][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/StatsViewer/
+[2016.12.15-18.35.02:036][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/StatsViewer/
+[2016.12.15-18.35.02:036][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/StatsViewer/
+[2016.12.15-18.35.02:036][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:036][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/StatsViewer/StatsViewer.generated
+[2016.12.15-18.35.02:036][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:036][  0]LogCompile:   SceneOutliner
+[2016.12.15-18.35.02:036][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/SceneOutliner/
+[2016.12.15-18.35.02:036][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/SceneOutliner/
+[2016.12.15-18.35.02:036][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SceneOutliner/
+[2016.12.15-18.35.02:036][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:036][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SceneOutliner/SceneOutliner.generated
+[2016.12.15-18.35.02:036][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:036][  0]LogCompile:   Sequencer
+[2016.12.15-18.35.02:036][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/Sequencer/
+[2016.12.15-18.35.02:036][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/Sequencer/
+[2016.12.15-18.35.02:036][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Sequencer/
+[2016.12.15-18.35.02:036][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:036][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Sequencer/Sequencer.generated
+[2016.12.15-18.35.02:036][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:036][  0]LogCompile:   HierarchicalLODOutliner
+[2016.12.15-18.35.02:036][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/HierarchicalLODOutliner/
+[2016.12.15-18.35.02:036][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/HierarchicalLODOutliner/
+[2016.12.15-18.35.02:036][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/HierarchicalLODOutliner/
+[2016.12.15-18.35.02:036][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:036][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/HierarchicalLODOutliner/HierarchicalLODOutliner.generated
+[2016.12.15-18.35.02:036][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:036][  0]LogCompile:   PixelInspectorModule
+[2016.12.15-18.35.02:036][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/PixelInspector/
+[2016.12.15-18.35.02:036][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/PixelInspector/
+[2016.12.15-18.35.02:036][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PixelInspectorModule/
+[2016.12.15-18.35.02:036][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:036][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PixelInspectorModule/PixelInspectorModule.generated
+[2016.12.15-18.35.02:036][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:036][  0]LogCompile:   SequenceRecorder
+[2016.12.15-18.35.02:036][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/SequenceRecorder/
+[2016.12.15-18.35.02:036][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/SequenceRecorder/
+[2016.12.15-18.35.02:036][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SequenceRecorder/
+[2016.12.15-18.35.02:036][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:037][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SequenceRecorder/SequenceRecorder.generated
+[2016.12.15-18.35.02:037][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:037][  0]LogCompile:   MovieSceneTools
+[2016.12.15-18.35.02:037][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/MovieSceneTools/
+[2016.12.15-18.35.02:037][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/MovieSceneTools/
+[2016.12.15-18.35.02:037][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MovieSceneTools/
+[2016.12.15-18.35.02:037][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:037][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MovieSceneTools/MovieSceneTools.generated
+[2016.12.15-18.35.02:037][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:037][  0]LogCompile:   HardwareTargeting
+[2016.12.15-18.35.02:037][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/HardwareTargeting/
+[2016.12.15-18.35.02:037][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/HardwareTargeting/
+[2016.12.15-18.35.02:037][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/HardwareTargeting/
+[2016.12.15-18.35.02:037][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:037][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/HardwareTargeting/HardwareTargeting.generated
+[2016.12.15-18.35.02:037][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:037][  0]LogCompile:   AddContentDialog
+[2016.12.15-18.35.02:037][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/AddContentDialog/
+[2016.12.15-18.35.02:037][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/AddContentDialog/
+[2016.12.15-18.35.02:037][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AddContentDialog/
+[2016.12.15-18.35.02:037][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:037][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AddContentDialog/AddContentDialog.generated
+[2016.12.15-18.35.02:037][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:037][  0]LogCompile:   GameProjectGeneration
+[2016.12.15-18.35.02:037][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/GameProjectGeneration/
+[2016.12.15-18.35.02:037][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/GameProjectGeneration/
+[2016.12.15-18.35.02:037][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GameProjectGeneration/
+[2016.12.15-18.35.02:037][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:037][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GameProjectGeneration/GameProjectGeneration.generated
+[2016.12.15-18.35.02:037][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:037][  0]LogCompile:   Kismet
+[2016.12.15-18.35.02:037][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/Kismet/
+[2016.12.15-18.35.02:037][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/Kismet/
+[2016.12.15-18.35.02:037][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Kismet/
+[2016.12.15-18.35.02:037][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:037][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Kismet/Kismet.generated
+[2016.12.15-18.35.02:037][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:037][  0]LogCompile:   ContentBrowser
+[2016.12.15-18.35.02:037][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/ContentBrowser/
+[2016.12.15-18.35.02:037][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/ContentBrowser/
+[2016.12.15-18.35.02:037][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ContentBrowser/
+[2016.12.15-18.35.02:037][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:037][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ContentBrowser/ContentBrowser.generated
+[2016.12.15-18.35.02:037][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:037][  0]LogCompile:   ConfigEditor
+[2016.12.15-18.35.02:037][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/ConfigEditor/
+[2016.12.15-18.35.02:037][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/ConfigEditor/
+[2016.12.15-18.35.02:037][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ConfigEditor/
+[2016.12.15-18.35.02:037][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:037][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ConfigEditor/ConfigEditor.generated
+[2016.12.15-18.35.02:037][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:037][  0]LogCompile:   AnimGraph
+[2016.12.15-18.35.02:037][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/AnimGraph/
+[2016.12.15-18.35.02:037][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/AnimGraph/
+[2016.12.15-18.35.02:037][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AnimGraph/
+[2016.12.15-18.35.02:037][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:037][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AnimGraph/AnimGraph.generated
+[2016.12.15-18.35.02:037][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:037][  0]LogCompile:   OnlineBlueprintSupport
+[2016.12.15-18.35.02:037][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/OnlineBlueprintSupport/
+[2016.12.15-18.35.02:037][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/OnlineBlueprintSupport/
+[2016.12.15-18.35.02:037][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/OnlineBlueprintSupport/
+[2016.12.15-18.35.02:037][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:037][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/OnlineBlueprintSupport/OnlineBlueprintSupport.generated
+[2016.12.15-18.35.02:037][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:037][  0]LogCompile:   Localization
+[2016.12.15-18.35.02:037][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/Localization/
+[2016.12.15-18.35.02:037][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/Localization/
+[2016.12.15-18.35.02:037][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Localization/
+[2016.12.15-18.35.02:038][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:038][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Localization/Localization.generated
+[2016.12.15-18.35.02:038][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:038][  0]LogCompile:   UnrealEd
+[2016.12.15-18.35.02:038][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/UnrealEd/
+[2016.12.15-18.35.02:038][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/UnrealEd/
+[2016.12.15-18.35.02:038][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/UnrealEd/
+[2016.12.15-18.35.02:038][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:038][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/UnrealEd/UnrealEd.generated
+[2016.12.15-18.35.02:038][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:038][  0]LogCompile:   TranslationEditor
+[2016.12.15-18.35.02:038][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/TranslationEditor/
+[2016.12.15-18.35.02:038][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/TranslationEditor/
+[2016.12.15-18.35.02:038][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TranslationEditor/
+[2016.12.15-18.35.02:038][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:038][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TranslationEditor/TranslationEditor.generated
+[2016.12.15-18.35.02:038][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:038][  0]LogCompile:   IntroTutorials
+[2016.12.15-18.35.02:038][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/IntroTutorials/
+[2016.12.15-18.35.02:038][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/IntroTutorials/
+[2016.12.15-18.35.02:038][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/IntroTutorials/
+[2016.12.15-18.35.02:038][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:038][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/IntroTutorials/IntroTutorials.generated
+[2016.12.15-18.35.02:038][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:038][  0]LogCompile:   SequenceRecorderSections
+[2016.12.15-18.35.02:038][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/SequenceRecorderSections/
+[2016.12.15-18.35.02:038][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/SequenceRecorderSections/
+[2016.12.15-18.35.02:038][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SequenceRecorderSections/
+[2016.12.15-18.35.02:038][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:038][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SequenceRecorderSections/SequenceRecorderSections.generated
+[2016.12.15-18.35.02:038][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:038][  0]LogCompile:   LandscapeEditor
+[2016.12.15-18.35.02:038][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/LandscapeEditor/
+[2016.12.15-18.35.02:038][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/LandscapeEditor/
+[2016.12.15-18.35.02:038][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LandscapeEditor/
+[2016.12.15-18.35.02:038][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:038][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LandscapeEditor/LandscapeEditor.generated
+[2016.12.15-18.35.02:038][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:038][  0]LogCompile:   WorldBrowser
+[2016.12.15-18.35.02:038][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/WorldBrowser/
+[2016.12.15-18.35.02:038][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/WorldBrowser/
+[2016.12.15-18.35.02:038][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/WorldBrowser/
+[2016.12.15-18.35.02:038][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:038][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/WorldBrowser/WorldBrowser.generated
+[2016.12.15-18.35.02:038][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:038][  0]LogCompile:   ReferenceViewer
+[2016.12.15-18.35.02:038][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/ReferenceViewer/
+[2016.12.15-18.35.02:038][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/ReferenceViewer/
+[2016.12.15-18.35.02:038][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ReferenceViewer/
+[2016.12.15-18.35.02:038][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:038][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ReferenceViewer/ReferenceViewer.generated
+[2016.12.15-18.35.02:038][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:039][  0]LogCompile:   VREditor
+[2016.12.15-18.35.02:039][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/VREditor/
+[2016.12.15-18.35.02:039][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/VREditor/
+[2016.12.15-18.35.02:039][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/VREditor/
+[2016.12.15-18.35.02:039][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:039][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/VREditor/VREditor.generated
+[2016.12.15-18.35.02:039][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:039][  0]LogCompile:   GameplayTagsEditor
+[2016.12.15-18.35.02:039][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/GameplayTagsEditor/
+[2016.12.15-18.35.02:039][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/GameplayTagsEditor/
+[2016.12.15-18.35.02:039][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GameplayTagsEditor/
+[2016.12.15-18.35.02:039][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:039][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GameplayTagsEditor/GameplayTagsEditor.generated
+[2016.12.15-18.35.02:039][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:039][  0]LogCompile:   EditorLiveStreaming
+[2016.12.15-18.35.02:039][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/EditorLiveStreaming/
+[2016.12.15-18.35.02:039][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/EditorLiveStreaming/
+[2016.12.15-18.35.02:039][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/EditorLiveStreaming/
+[2016.12.15-18.35.02:039][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:039][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/EditorLiveStreaming/EditorLiveStreaming.generated
+[2016.12.15-18.35.02:039][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:039][  0]LogCompile:   DestructibleMeshEditor
+[2016.12.15-18.35.02:039][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/DestructibleMeshEditor/
+[2016.12.15-18.35.02:039][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/DestructibleMeshEditor/
+[2016.12.15-18.35.02:039][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/DestructibleMeshEditor/
+[2016.12.15-18.35.02:039][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:039][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/DestructibleMeshEditor/DestructibleMeshEditor.generated
+[2016.12.15-18.35.02:039][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:039][  0]LogCompile:   Cascade
+[2016.12.15-18.35.02:039][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/Cascade/
+[2016.12.15-18.35.02:039][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/Cascade/
+[2016.12.15-18.35.02:039][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Cascade/
+[2016.12.15-18.35.02:039][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:039][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Cascade/Cascade.generated
+[2016.12.15-18.35.02:039][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:039][  0]LogCompile:   UMGEditor
+[2016.12.15-18.35.02:039][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/UMGEditor/
+[2016.12.15-18.35.02:039][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/UMGEditor/
+[2016.12.15-18.35.02:039][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/UMGEditor/
+[2016.12.15-18.35.02:039][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:039][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/UMGEditor/UMGEditor.generated
+[2016.12.15-18.35.02:039][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:039][  0]LogCompile:   Matinee
+[2016.12.15-18.35.02:039][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/Matinee/
+[2016.12.15-18.35.02:039][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/Matinee/
+[2016.12.15-18.35.02:039][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Matinee/
+[2016.12.15-18.35.02:039][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:039][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Matinee/Matinee.generated
+[2016.12.15-18.35.02:039][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:039][  0]LogCompile:   PhAT
+[2016.12.15-18.35.02:039][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/PhAT/
+[2016.12.15-18.35.02:039][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/PhAT/
+[2016.12.15-18.35.02:039][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PhAT/
+[2016.12.15-18.35.02:039][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:039][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PhAT/PhAT.generated
+[2016.12.15-18.35.02:039][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:039][  0]LogCompile:   GeometryMode
+[2016.12.15-18.35.02:039][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/GeometryMode/
+[2016.12.15-18.35.02:039][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/GeometryMode/
+[2016.12.15-18.35.02:039][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GeometryMode/
+[2016.12.15-18.35.02:039][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:039][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GeometryMode/GeometryMode.generated
+[2016.12.15-18.35.02:039][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:039][  0]LogCompile:   FoliageEdit
+[2016.12.15-18.35.02:039][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/FoliageEdit/
+[2016.12.15-18.35.02:039][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/FoliageEdit/
+[2016.12.15-18.35.02:039][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/FoliageEdit/
+[2016.12.15-18.35.02:039][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:039][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/FoliageEdit/FoliageEdit.generated
+[2016.12.15-18.35.02:039][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:039][  0]LogCompile:   Blutility
+[2016.12.15-18.35.02:039][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/Blutility/
+[2016.12.15-18.35.02:039][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/Blutility/
+[2016.12.15-18.35.02:039][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Blutility/
+[2016.12.15-18.35.02:039][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:039][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Blutility/Blutility.generated
+[2016.12.15-18.35.02:039][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:039][  0]LogCompile:   NiagaraEditor
+[2016.12.15-18.35.02:039][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/NiagaraEditor/
+[2016.12.15-18.35.02:039][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/NiagaraEditor/
+[2016.12.15-18.35.02:039][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/NiagaraEditor/
+[2016.12.15-18.35.02:039][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:039][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/NiagaraEditor/NiagaraEditor.generated
+[2016.12.15-18.35.02:039][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:039][  0]LogCompile:   MergeActors
+[2016.12.15-18.35.02:040][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/MergeActors/
+[2016.12.15-18.35.02:040][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/MergeActors/
+[2016.12.15-18.35.02:040][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MergeActors/
+[2016.12.15-18.35.02:040][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:040][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MergeActors/MergeActors.generated
+[2016.12.15-18.35.02:040][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:040][  0]LogCompile:   AIGraph
+[2016.12.15-18.35.02:040][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/AIGraph/
+[2016.12.15-18.35.02:040][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/AIGraph/
+[2016.12.15-18.35.02:040][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AIGraph/
+[2016.12.15-18.35.02:040][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:040][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AIGraph/AIGraph.generated
+[2016.12.15-18.35.02:040][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:040][  0]LogCompile:   BehaviorTreeEditor
+[2016.12.15-18.35.02:040][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/BehaviorTreeEditor/
+[2016.12.15-18.35.02:040][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/BehaviorTreeEditor/
+[2016.12.15-18.35.02:040][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/BehaviorTreeEditor/
+[2016.12.15-18.35.02:040][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:040][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/BehaviorTreeEditor/BehaviorTreeEditor.generated
+[2016.12.15-18.35.02:040][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:040][  0]LogCompile:   EnvironmentQueryEditor
+[2016.12.15-18.35.02:040][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/EnvironmentQueryEditor/
+[2016.12.15-18.35.02:040][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/EnvironmentQueryEditor/
+[2016.12.15-18.35.02:040][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/EnvironmentQueryEditor/
+[2016.12.15-18.35.02:040][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:040][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/EnvironmentQueryEditor/EnvironmentQueryEditor.generated
+[2016.12.15-18.35.02:040][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:040][  0]LogCompile:   GameplayTasksEditor
+[2016.12.15-18.35.02:040][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/GameplayTasksEditor/
+[2016.12.15-18.35.02:040][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/GameplayTasksEditor/
+[2016.12.15-18.35.02:040][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GameplayTasksEditor/
+[2016.12.15-18.35.02:040][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:040][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GameplayTasksEditor/GameplayTasksEditor.generated
+[2016.12.15-18.35.02:040][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:040][  0]LogCompile:   GameplayAbilitiesEditor
+[2016.12.15-18.35.02:040][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/GameplayAbilitiesEditor/
+[2016.12.15-18.35.02:040][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/GameplayAbilitiesEditor/
+[2016.12.15-18.35.02:040][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GameplayAbilitiesEditor/
+[2016.12.15-18.35.02:040][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:040][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GameplayAbilitiesEditor/GameplayAbilitiesEditor.generated
+[2016.12.15-18.35.02:040][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:040][  0]LogCompile:   GeometryCacheEd
+[2016.12.15-18.35.02:040][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/GeometryCacheEd/
+[2016.12.15-18.35.02:040][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Editor/GeometryCacheEd/
+[2016.12.15-18.35.02:040][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GeometryCacheEd/
+[2016.12.15-18.35.02:040][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:040][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GeometryCacheEd/GeometryCacheEd.generated
+[2016.12.15-18.35.02:040][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:040][  0]LogCompile:   MediaAssets
+[2016.12.15-18.35.02:040][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/MediaAssets/
+[2016.12.15-18.35.02:040][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Runtime/MediaAssets/
+[2016.12.15-18.35.02:040][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MediaAssets/
+[2016.12.15-18.35.02:040][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:040][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MediaAssets/MediaAssets.generated
+[2016.12.15-18.35.02:040][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:040][  0]LogCompile:   Paper2D
+[2016.12.15-18.35.02:040][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/2D/Paper2D/Source/Paper2D/
+[2016.12.15-18.35.02:040][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/2D/Paper2D/Source/Paper2D/
+[2016.12.15-18.35.02:040][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/2D/Paper2D/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Paper2D/
+[2016.12.15-18.35.02:040][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:040][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/2D/Paper2D/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Paper2D/Paper2D.generated
+[2016.12.15-18.35.02:040][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:040][  0]LogCompile:   UdpMessaging
+[2016.12.15-18.35.02:040][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/
+[2016.12.15-18.35.02:040][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/
+[2016.12.15-18.35.02:040][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Messaging/UdpMessaging/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/UdpMessaging/
+[2016.12.15-18.35.02:040][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:040][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Messaging/UdpMessaging/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/UdpMessaging/UdpMessaging.generated
+[2016.12.15-18.35.02:040][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:040][  0]LogCompile:   ArchVisCharacter
+[2016.12.15-18.35.02:040][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Runtime/ArchVisCharacter/Source/ArchVisCharacter/
+[2016.12.15-18.35.02:040][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Runtime/ArchVisCharacter/Source/ArchVisCharacter/
+[2016.12.15-18.35.02:040][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Runtime/ArchVisCharacter/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ArchVisCharacter/
+[2016.12.15-18.35.02:040][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:040][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Runtime/ArchVisCharacter/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ArchVisCharacter/ArchVisCharacter.generated
+[2016.12.15-18.35.02:040][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:040][  0]LogCompile:   CableComponent
+[2016.12.15-18.35.02:040][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Runtime/CableComponent/Source/CableComponent/
+[2016.12.15-18.35.02:040][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Runtime/CableComponent/Source/CableComponent/
+[2016.12.15-18.35.02:040][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Runtime/CableComponent/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CableComponent/
+[2016.12.15-18.35.02:040][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:040][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Runtime/CableComponent/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CableComponent/CableComponent.generated
+[2016.12.15-18.35.02:040][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:041][  0]LogCompile:   CustomMeshComponent
+[2016.12.15-18.35.02:041][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Runtime/CustomMeshComponent/Source/CustomMeshComponent/
+[2016.12.15-18.35.02:041][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Runtime/CustomMeshComponent/Source/CustomMeshComponent/
+[2016.12.15-18.35.02:041][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Runtime/CustomMeshComponent/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CustomMeshComponent/
+[2016.12.15-18.35.02:041][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:041][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Runtime/CustomMeshComponent/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CustomMeshComponent/CustomMeshComponent.generated
+[2016.12.15-18.35.02:041][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:041][  0]LogCompile:   ProceduralMeshComponent
+[2016.12.15-18.35.02:041][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Runtime/ProceduralMeshComponent/Source/
+[2016.12.15-18.35.02:041][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Runtime/ProceduralMeshComponent/Source/
+[2016.12.15-18.35.02:041][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Runtime/ProceduralMeshComponent/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ProceduralMeshComponent/
+[2016.12.15-18.35.02:041][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:041][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Runtime/ProceduralMeshComponent/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ProceduralMeshComponent/ProceduralMeshComponent.generated
+[2016.12.15-18.35.02:041][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:041][  0]LogCompile:   SlateRemote
+[2016.12.15-18.35.02:041][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Slate/SlateRemote/Source/SlateRemote/
+[2016.12.15-18.35.02:041][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Slate/SlateRemote/Source/SlateRemote/
+[2016.12.15-18.35.02:041][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Slate/SlateRemote/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SlateRemote/
+[2016.12.15-18.35.02:041][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:041][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Slate/SlateRemote/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SlateRemote/SlateRemote.generated
+[2016.12.15-18.35.02:041][  0]LogCompile:   .ModuleType=EngineRuntime
+[2016.12.15-18.35.02:041][  0]LogCompile:   UObjectPlugin
+[2016.12.15-18.35.02:041][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Developer/UObjectPlugin/Source/UObjectPlugin/
+[2016.12.15-18.35.02:041][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Developer/UObjectPlugin/Source/UObjectPlugin/
+[2016.12.15-18.35.02:041][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Developer/UObjectPlugin/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/UObjectPlugin/
+[2016.12.15-18.35.02:041][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:041][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Developer/UObjectPlugin/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/UObjectPlugin/UObjectPlugin.generated
+[2016.12.15-18.35.02:041][  0]LogCompile:   .ModuleType=EngineDeveloper
+[2016.12.15-18.35.02:041][  0]LogCompile:   Paper2DEditor
+[2016.12.15-18.35.02:041][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/2D/Paper2D/Source/Paper2DEditor/
+[2016.12.15-18.35.02:041][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/2D/Paper2D/Source/Paper2DEditor/
+[2016.12.15-18.35.02:041][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/2D/Paper2D/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Paper2DEditor/
+[2016.12.15-18.35.02:041][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:041][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/2D/Paper2D/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Paper2DEditor/Paper2DEditor.generated
+[2016.12.15-18.35.02:041][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:041][  0]LogCompile:   PaperSpriteSheetImporter
+[2016.12.15-18.35.02:041][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/2D/Paper2D/Source/PaperSpriteSheetImporter/
+[2016.12.15-18.35.02:041][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/2D/Paper2D/Source/PaperSpriteSheetImporter/
+[2016.12.15-18.35.02:041][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/2D/Paper2D/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PaperSpriteSheetImporter/
+[2016.12.15-18.35.02:041][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:041][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/2D/Paper2D/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PaperSpriteSheetImporter/PaperSpriteSheetImporter.generated
+[2016.12.15-18.35.02:041][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:041][  0]LogCompile:   PaperTiledImporter
+[2016.12.15-18.35.02:041][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/2D/Paper2D/Source/PaperTiledImporter/
+[2016.12.15-18.35.02:041][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/2D/Paper2D/Source/PaperTiledImporter/
+[2016.12.15-18.35.02:041][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/2D/Paper2D/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PaperTiledImporter/
+[2016.12.15-18.35.02:041][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:041][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/2D/Paper2D/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PaperTiledImporter/PaperTiledImporter.generated
+[2016.12.15-18.35.02:041][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:041][  0]LogCompile:   LightPropagationVolumeEditor
+[2016.12.15-18.35.02:041][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Blendables/LightPropagationVolume/Source/LightPropagationVolumeEditor/
+[2016.12.15-18.35.02:041][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Blendables/LightPropagationVolume/Source/LightPropagationVolumeEditor/
+[2016.12.15-18.35.02:041][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Blendables/LightPropagationVolume/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LightPropagationVolumeEditor/
+[2016.12.15-18.35.02:041][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:041][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Blendables/LightPropagationVolume/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LightPropagationVolumeEditor/LightPropagationVolumeEditor.generated
+[2016.12.15-18.35.02:041][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:041][  0]LogCompile:   PluginBrowser
+[2016.12.15-18.35.02:041][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Editor/PluginBrowser/Source/PluginBrowser/
+[2016.12.15-18.35.02:041][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Editor/PluginBrowser/Source/PluginBrowser/
+[2016.12.15-18.35.02:041][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Editor/PluginBrowser/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PluginBrowser/
+[2016.12.15-18.35.02:041][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:041][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Editor/PluginBrowser/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PluginBrowser/PluginBrowser.generated
+[2016.12.15-18.35.02:041][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:041][  0]LogCompile:   SpeedTreeImporter
+[2016.12.15-18.35.02:041][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Editor/SpeedTreeImporter/Source/SpeedTreeImporter/
+[2016.12.15-18.35.02:041][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Editor/SpeedTreeImporter/Source/SpeedTreeImporter/
+[2016.12.15-18.35.02:041][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Editor/SpeedTreeImporter/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SpeedTreeImporter/
+[2016.12.15-18.35.02:041][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:041][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Editor/SpeedTreeImporter/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SpeedTreeImporter/SpeedTreeImporter.generated
+[2016.12.15-18.35.02:041][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:041][  0]LogCompile:   SuperSearchEditor
+[2016.12.15-18.35.02:041][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Editor/SuperSearchEditor/Source/SuperSearchEditor/
+[2016.12.15-18.35.02:041][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Editor/SuperSearchEditor/Source/SuperSearchEditor/
+[2016.12.15-18.35.02:041][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Editor/SuperSearchEditor/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SuperSearchEditor/
+[2016.12.15-18.35.02:041][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:041][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Editor/SuperSearchEditor/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SuperSearchEditor/SuperSearchEditor.generated
+[2016.12.15-18.35.02:041][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:041][  0]LogCompile:   MediaPlayerEditor
+[2016.12.15-18.35.02:041][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Media/MediaPlayerEditor/Source/MediaPlayerEditor/
+[2016.12.15-18.35.02:041][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Media/MediaPlayerEditor/Source/MediaPlayerEditor/
+[2016.12.15-18.35.02:041][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Media/MediaPlayerEditor/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MediaPlayerEditor/
+[2016.12.15-18.35.02:041][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:041][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/Media/MediaPlayerEditor/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MediaPlayerEditor/MediaPlayerEditor.generated
+[2016.12.15-18.35.02:041][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:041][  0]LogCompile:   LevelSequenceEditor
+[2016.12.15-18.35.02:041][  0]LogCompile:   .BaseDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/MovieScene/LevelSequenceEditor/Source/LevelSequenceEditor/
+[2016.12.15-18.35.02:041][  0]LogCompile:   .IncludeBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/MovieScene/LevelSequenceEditor/Source/LevelSequenceEditor/
+[2016.12.15-18.35.02:042][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/MovieScene/LevelSequenceEditor/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LevelSequenceEditor/
+[2016.12.15-18.35.02:042][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:042][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/UnrealEngine-4.12.5-release/Engine/Plugins/MovieScene/LevelSequenceEditor/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LevelSequenceEditor/LevelSequenceEditor.generated
+[2016.12.15-18.35.02:042][  0]LogCompile:   .ModuleType=EngineEditor
+[2016.12.15-18.35.02:042][  0]LogCompile:   edoeri
+[2016.12.15-18.35.02:042][  0]LogCompile:   .BaseDirectory=/home/cortana/Projects/UnrealProjects/edoeri/Source/edoeri/
+[2016.12.15-18.35.02:042][  0]LogCompile:   .IncludeBase=/home/cortana/Projects/UnrealProjects/edoeri/Source/edoeri/
+[2016.12.15-18.35.02:042][  0]LogCompile:   .GeneratedIncludeDirectory=/home/cortana/Projects/UnrealProjects/edoeri/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/edoeri/
+[2016.12.15-18.35.02:042][  0]LogCompile:   .SaveExportedHeaders=True
+[2016.12.15-18.35.02:042][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/cortana/Projects/UnrealProjects/edoeri/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/edoeri/edoeri.generated
+[2016.12.15-18.35.02:042][  0]LogCompile:   .ModuleType=GameRuntime
+[2016.12.15-18.35.02:045][  0]LogCompile: Preparsed module /Script/CoreUObject containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:047][  0]LogCompile: Preparsed module /Script/InputCore containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:063][  0]LogCompile: Preparsed module /Script/SlateCore containing 18 files(s) in 0.02 secs.
+[2016.12.15-18.35.02:068][  0]LogCompile: Preparsed module /Script/Slate containing 17 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:081][  0]LogCompile: Preparsed module /Script/SourceCodeAccess containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:082][  0]LogCompile: Preparsed module /Script/EngineMessages containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:082][  0]LogCompile: Preparsed module /Script/SessionMessages containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:082][  0]LogCompile: Preparsed module /Script/SlateReflector containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:083][  0]LogCompile: Preparsed module /Script/MessagingRpc containing 2 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:083][  0]LogCompile: Preparsed module /Script/PortalRpc containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:084][  0]LogCompile: Preparsed module /Script/PortalServices containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:085][  0]LogCompile: Preparsed module /Script/EngineSettings containing 7 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:085][  0]LogCompile: Preparsed module /Script/PacketHandler containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:086][  0]LogCompile: Preparsed module /Script/Serialization containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:087][  0]LogCompile: Preparsed module /Script/AutomationMessages containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:087][  0]LogCompile: Preparsed module /Script/JsonUtilities containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:090][  0]LogCompile: Preparsed module /Script/OnlineSubsystem containing 5 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:091][  0]LogCompile: Preparsed module /Script/IOSRuntimeSettings containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:092][  0]LogCompile: Preparsed module /Script/PortalMessages containing 4 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:092][  0]LogCompile: Preparsed module /Script/LaunchDaemonMessages containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:093][  0]LogCompile: Preparsed module /Script/EditorStyle containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:093][  0]LogCompile: Preparsed module /Script/WidgetCarousel containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:094][  0]LogCompile: Preparsed module /Script/UnrealEdMessages containing 2 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:094][  0]LogCompile: Preparsed module /Script/ProfilerMessages containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:095][  0]LogCompile: Preparsed module /Script/SwarmInterface containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:534][  0]LogCompile: Preparsed module /Script/Engine containing 873 files(s) in 0.44 secs.
+[2016.12.15-18.35.02:535][  0]LogCompile: Preparsed module /Script/MoviePlayer containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:536][  0]LogCompile: Preparsed module /Script/HeadMountedDisplay containing 3 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:540][  0]LogCompile: Preparsed module /Script/MovieScene containing 11 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:552][  0]LogCompile: Preparsed module /Script/MovieSceneTracks containing 51 files(s) in 0.01 secs.
+[2016.12.15-18.35.02:554][  0]LogCompile: Preparsed module /Script/LevelSequence containing 5 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:559][  0]LogCompile: Preparsed module /Script/GameplayTags containing 5 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:562][  0]LogCompile: Preparsed module /Script/GameplayTasks containing 6 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:612][  0]LogCompile: Preparsed module /Script/AIModule containing 161 files(s) in 0.05 secs.
+[2016.12.15-18.35.02:613][  0]LogCompile: Preparsed module /Script/MaterialShaderQualitySettings containing 3 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:618][  0]LogCompile: Preparsed module /Script/Foliage containing 14 files(s) in 0.01 secs.
+[2016.12.15-18.35.02:630][  0]LogCompile: Preparsed module /Script/Landscape containing 26 files(s) in 0.01 secs.
+[2016.12.15-18.35.02:631][  0]LogCompile: Preparsed module /Script/WebBrowser containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:632][  0]LogCompile: Preparsed module /Script/CinematicCamera containing 4 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:636][  0]LogCompile: Preparsed module /Script/MovieSceneCapture containing 12 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:666][  0]LogCompile: Preparsed module /Script/UMG containing 98 files(s) in 0.03 secs.
+[2016.12.15-18.35.02:667][  0]LogCompile: Preparsed module /Script/VectorVM containing 2 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:671][  0]LogCompile: Preparsed module /Script/Niagara containing 12 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:679][  0]LogCompile: Preparsed module /Script/AnimGraphRuntime containing 34 files(s) in 0.01 secs.
+[2016.12.15-18.35.02:690][  0]LogCompile: Preparsed module /Script/OnlineSubsystemUtils containing 35 files(s) in 0.01 secs.
+[2016.12.15-18.35.02:691][  0]LogCompile: Preparsed module /Script/LightPropagationVolumeRuntime containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:732][  0]LogCompile: Preparsed module /Script/GameplayAbilities containing 84 files(s) in 0.04 secs.
+[2016.12.15-18.35.02:733][  0]LogCompile: Preparsed module /Script/GameLiveStreaming containing 2 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:736][  0]LogCompile: Preparsed module /Script/GeometryCache containing 8 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:740][  0]LogCompile: Preparsed module /Script/GameplayDebugger containing 11 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:742][  0]LogCompile: Preparsed module /Script/FunctionalTesting containing 4 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:743][  0]LogCompile: Preparsed module /Script/BlueprintNativeCodeGen containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:744][  0]LogCompile: Preparsed module /Script/TargetDeviceServices containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:745][  0]LogCompile: Preparsed module /Script/InternationalizationSettings containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:745][  0]LogCompile: Preparsed module /Script/SuperSearch containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:747][  0]LogCompile: Preparsed module /Script/AITestSuite containing 12 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:789][  0]LogCompile: Preparsed module /Script/HTML5PlatformEditor containing 2 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:791][  0]LogCompile: Preparsed module /Script/LogVisualizer containing 6 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:791][  0]LogCompile: Preparsed module /Script/LinuxTargetPlatform containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:791][  0]LogCompile: Preparsed module /Script/TextureEditor containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:826][  0]LogCompile: Preparsed module /Script/BlueprintGraph containing 112 files(s) in 0.03 secs.
+[2016.12.15-18.35.02:827][  0]LogCompile: Preparsed module /Script/GraphEditor containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:827][  0]LogCompile: Preparsed module /Script/NewsFeed containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:829][  0]LogCompile: Preparsed module /Script/StatsViewer containing 5 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:829][  0]LogCompile: Preparsed module /Script/SceneOutliner containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:832][  0]LogCompile: Preparsed module /Script/Sequencer containing 3 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:832][  0]LogCompile: Preparsed module /Script/HierarchicalLODOutliner containing 2 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:833][  0]LogCompile: Preparsed module /Script/PixelInspectorModule containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:834][  0]LogCompile: Preparsed module /Script/SequenceRecorder containing 6 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:834][  0]LogCompile: Preparsed module /Script/MovieSceneTools containing 2 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:835][  0]LogCompile: Preparsed module /Script/HardwareTargeting containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:836][  0]LogCompile: Preparsed module /Script/AddContentDialog containing 2 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:837][  0]LogCompile: Preparsed module /Script/GameProjectGeneration containing 2 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:838][  0]LogCompile: Preparsed module /Script/Kismet containing 5 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:839][  0]LogCompile: Preparsed module /Script/ContentBrowser containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:839][  0]LogCompile: Preparsed module /Script/ConfigEditor containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:853][  0]LogCompile: Preparsed module /Script/AnimGraph containing 70 files(s) in 0.01 secs.
+[2016.12.15-18.35.02:854][  0]LogCompile: Preparsed module /Script/OnlineBlueprintSupport containing 6 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:855][  0]LogCompile: Preparsed module /Script/Localization containing 2 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:935][  0]LogCompile: Preparsed module /Script/UnrealEd containing 321 files(s) in 0.08 secs.
+[2016.12.15-18.35.02:936][  0]LogCompile: Preparsed module /Script/TranslationEditor containing 3 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:938][  0]LogCompile: Preparsed module /Script/IntroTutorials containing 6 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:938][  0]LogCompile: Preparsed module /Script/SequenceRecorderSections containing 2 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:941][  0]LogCompile: Preparsed module /Script/LandscapeEditor containing 3 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:941][  0]LogCompile: Preparsed module /Script/WorldBrowser containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:942][  0]LogCompile: Preparsed module /Script/ReferenceViewer containing 3 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:946][  0]LogCompile: Preparsed module /Script/VREditor containing 17 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:948][  0]LogCompile: Preparsed module /Script/GameplayTagsEditor containing 9 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:948][  0]LogCompile: Preparsed module /Script/EditorLiveStreaming containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:949][  0]LogCompile: Preparsed module /Script/DestructibleMeshEditor containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:949][  0]LogCompile: Preparsed module /Script/Cascade containing 2 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:951][  0]LogCompile: Preparsed module /Script/UMGEditor containing 8 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:953][  0]LogCompile: Preparsed module /Script/Matinee containing 15 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:953][  0]LogCompile: Preparsed module /Script/PhAT containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:956][  0]LogCompile: Preparsed module /Script/GeometryMode containing 14 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:956][  0]LogCompile: Preparsed module /Script/FoliageEdit containing 5 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:957][  0]LogCompile: Preparsed module /Script/Blutility containing 4 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:958][  0]LogCompile: Preparsed module /Script/NiagaraEditor containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:958][  0]LogCompile: Preparsed module /Script/MergeActors containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:960][  0]LogCompile: Preparsed module /Script/AIGraph containing 4 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:963][  0]LogCompile: Preparsed module /Script/BehaviorTreeEditor containing 19 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:964][  0]LogCompile: Preparsed module /Script/EnvironmentQueryEditor containing 7 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:965][  0]LogCompile: Preparsed module /Script/GameplayTasksEditor containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:966][  0]LogCompile: Preparsed module /Script/GameplayAbilitiesEditor containing 6 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:966][  0]LogCompile: Preparsed module /Script/GeometryCacheEd containing 2 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:968][  0]LogCompile: Preparsed module /Script/MediaAssets containing 3 files(s) in 0.00 secs.
+[2016.12.15-18.35.02:991][  0]LogCompile: Preparsed module /Script/Paper2D containing 25 files(s) in 0.01 secs.
+[2016.12.15-18.35.03:002][  0]LogCompile: Preparsed module /Script/UdpMessaging containing 2 files(s) in 0.00 secs.
+[2016.12.15-18.35.03:009][  0]LogCompile: Preparsed module /Script/ArchVisCharacter containing 2 files(s) in 0.00 secs.
+[2016.12.15-18.35.03:010][  0]LogCompile: Preparsed module /Script/CableComponent containing 2 files(s) in 0.00 secs.
+[2016.12.15-18.35.03:011][  0]LogCompile: Preparsed module /Script/CustomMeshComponent containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.03:012][  0]LogCompile: Preparsed module /Script/ProceduralMeshComponent containing 2 files(s) in 0.00 secs.
+[2016.12.15-18.35.03:020][  0]LogCompile: Preparsed module /Script/SlateRemote containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.03:028][  0]LogCompile: Preparsed module /Script/UObjectPlugin containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.03:032][  0]LogCompile: Preparsed module /Script/Paper2DEditor containing 21 files(s) in 0.00 secs.
+[2016.12.15-18.35.03:032][  0]LogCompile: Preparsed module /Script/PaperSpriteSheetImporter containing 3 files(s) in 0.00 secs.
+[2016.12.15-18.35.03:033][  0]LogCompile: Preparsed module /Script/PaperTiledImporter containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.03:034][  0]LogCompile: Preparsed module /Script/LightPropagationVolumeEditor containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.03:040][  0]LogCompile: Preparsed module /Script/PluginBrowser containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.03:056][  0]LogCompile: Preparsed module /Script/SpeedTreeImporter containing 2 files(s) in 0.00 secs.
+[2016.12.15-18.35.03:067][  0]LogCompile: Preparsed module /Script/SuperSearchEditor containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.03:069][  0]LogCompile: Preparsed module /Script/MediaPlayerEditor containing 4 files(s) in 0.00 secs.
+[2016.12.15-18.35.03:079][  0]LogCompile: Preparsed module /Script/LevelSequenceEditor containing 2 files(s) in 0.00 secs.
+[2016.12.15-18.35.03:080][  0]LogCompile: Preparsed module /Script/edoeri containing 1 files(s) in 0.00 secs.
+[2016.12.15-18.35.03:081][  0]LogCompile: Found 0 script generator plugins.
+[2016.12.15-18.35.03:091][  0]LogCompile: Exporting native class declarations for /Script/CoreUObject
+[2016.12.15-18.35.03:115][  0]LogCompile: Autogenerating boilerplate cpp: CoreUObject.generated.cpp
+[2016.12.15-18.35.03:144][  0]LogCompile: Success: Parsed 1081 line(s), 62 statement(s) in 0.05 secs.
+[2016.12.15-18.35.03:149][  0]LogCompile: Exporting native class declarations for /Script/InputCore
+[2016.12.15-18.35.03:155][  0]LogCompile: Autogenerating boilerplate cpp: InputCore.generated.cpp
+[2016.12.15-18.35.03:157][  0]LogCompile: Success: Parsed 551 line(s), 16 statement(s) in 0.01 secs.
+[2016.12.15-18.35.03:203][  0]LogCompile: Exporting native class declarations for /Script/SlateCore
+[2016.12.15-18.35.03:215][  0]LogCompile: Autogenerating boilerplate cpp: SlateCore.generated.cpp
+[2016.12.15-18.35.03:223][  0]LogCompile: Success: Parsed 5825 line(s), 232 statement(s) in 0.02 secs.
+[2016.12.15-18.35.03:231][  0]LogCompile: Exporting native class declarations for /Script/Slate
+[2016.12.15-18.35.03:236][  0]LogCompile: Autogenerating boilerplate cpp: Slate.generated.cpp
+[2016.12.15-18.35.03:253][  0]LogCompile: Success: Parsed 1717 line(s), 136 statement(s) in 0.02 secs.
+[2016.12.15-18.35.03:254][  0]LogCompile: Exporting native class declarations for /Script/SourceCodeAccess
+[2016.12.15-18.35.03:255][  0]LogCompile: Autogenerating boilerplate cpp: SourceCodeAccess.generated.cpp
+[2016.12.15-18.35.03:255][  0]LogCompile: Success: Parsed 16 line(s), 6 statement(s) in 0.00 secs.
+[2016.12.15-18.35.03:257][  0]LogCompile: Exporting native class declarations for /Script/EngineMessages
+[2016.12.15-18.35.03:257][  0]LogCompile: Autogenerating boilerplate cpp: EngineMessages.generated.cpp
+[2016.12.15-18.35.03:258][  0]LogCompile: Success: Parsed 179 line(s), 9 statement(s) in 0.00 secs.
+[2016.12.15-18.35.03:260][  0]LogCompile: Exporting native class declarations for /Script/SessionMessages
+[2016.12.15-18.35.03:261][  0]LogCompile: Autogenerating boilerplate cpp: SessionMessages.generated.cpp
+[2016.12.15-18.35.03:261][  0]LogCompile: Success: Parsed 154 line(s), 7 statement(s) in 0.00 secs.
+[2016.12.15-18.35.03:262][  0]LogCompile: Exporting native class declarations for /Script/SlateReflector
+[2016.12.15-18.35.03:262][  0]LogCompile: Autogenerating boilerplate cpp: SlateReflector.generated.cpp
+[2016.12.15-18.35.03:263][  0]LogCompile: Success: Parsed 42 line(s), 4 statement(s) in 0.00 secs.
+[2016.12.15-18.35.03:264][  0]LogCompile: Exporting native class declarations for /Script/MessagingRpc
+[2016.12.15-18.35.03:265][  0]LogCompile: Autogenerating boilerplate cpp: MessagingRpc.generated.cpp
+[2016.12.15-18.35.03:265][  0]LogCompile: Success: Parsed 108 line(s), 9 statement(s) in 0.00 secs.
+[2016.12.15-18.35.03:266][  0]LogCompile: Exporting native class declarations for /Script/PortalRpc
+[2016.12.15-18.35.03:266][  0]LogCompile: Autogenerating boilerplate cpp: PortalRpc.generated.cpp
+[2016.12.15-18.35.03:267][  0]LogCompile: Success: Parsed 59 line(s), 4 statement(s) in 0.00 secs.
+[2016.12.15-18.35.03:269][  0]LogCompile: Exporting native class declarations for /Script/PortalServices
+[2016.12.15-18.35.03:269][  0]LogCompile: Autogenerating boilerplate cpp: PortalServices.generated.cpp
+[2016.12.15-18.35.03:270][  0]LogCompile: Success: Parsed 154 line(s), 10 statement(s) in 0.00 secs.
+[2016.12.15-18.35.03:274][  0]LogCompile: Exporting native class declarations for /Script/EngineSettings
+[2016.12.15-18.35.03:279][  0]LogCompile: Autogenerating boilerplate cpp: EngineSettings.generated.cpp
+[2016.12.15-18.35.03:282][  0]LogCompile: Success: Parsed 414 line(s), 95 statement(s) in 0.01 secs.
+[2016.12.15-18.35.03:283][  0]LogCompile: Exporting native class declarations for /Script/PacketHandler
+[2016.12.15-18.35.03:284][  0]LogCompile: Autogenerating boilerplate cpp: PacketHandler.generated.cpp
+[2016.12.15-18.35.03:284][  0]LogCompile: Success: Parsed 21 line(s), 9 statement(s) in 0.00 secs.
+[2016.12.15-18.35.03:286][  0]LogCompile: Exporting native class declarations for /Script/Serialization
+[2016.12.15-18.35.03:288][  0]LogCompile: Autogenerating boilerplate cpp: Serialization.generated.cpp
+[2016.12.15-18.35.03:289][  0]LogCompile: Success: Parsed 276 line(s), 9 statement(s) in 0.00 secs.
+[2016.12.15-18.35.03:291][  0]LogCompile: Exporting native class declarations for /Script/AutomationMessages
+[2016.12.15-18.35.03:293][  0]LogCompile: Autogenerating boilerplate cpp: AutomationMessages.generated.cpp
+[2016.12.15-18.35.03:294][  0]LogCompile: Success: Parsed 337 line(s), 16 statement(s) in 0.00 secs.
+[2016.12.15-18.35.03:296][  0]LogCompile: Exporting native class declarations for /Script/JsonUtilities
+[2016.12.15-18.35.03:296][  0]LogCompile: Autogenerating boilerplate cpp: JsonUtilities.generated.cpp
+[2016.12.15-18.35.03:297][  0]LogCompile: Success: Parsed 18 line(s), 5 statement(s) in 0.00 secs.
+[2016.12.15-18.35.03:302][  0]LogCompile: Exporting native class declarations for /Script/OnlineSubsystem
+[2016.12.15-18.35.03:305][  0]LogCompile: Autogenerating boilerplate cpp: OnlineSubsystem.generated.cpp
+[2016.12.15-18.35.03:307][  0]LogCompile: Success: Parsed 1225 line(s), 128 statement(s) in 0.00 secs.
+[2016.12.15-18.35.03:310][  0]LogCompile: Exporting native class declarations for /Script/IOSRuntimeSettings
+[2016.12.15-18.35.03:312][  0]LogCompile: Autogenerating boilerplate cpp: IOSRuntimeSettings.generated.cpp
+[2016.12.15-18.35.03:313][  0]LogCompile: Success: Parsed 324 line(s), 56 statement(s) in 0.00 secs.
+[2016.12.15-18.35.03:315][  0]LogCompile: Exporting native class declarations for /Script/PortalMessages
+[2016.12.15-18.35.03:317][  0]LogCompile: Autogenerating boilerplate cpp: PortalMessages.generated.cpp
+[2016.12.15-18.35.03:333][  0]LogCompile: Success: Parsed 251 line(s), 31 statement(s) in 0.02 secs.
+[2016.12.15-18.35.03:334][  0]LogCompile: Exporting native class declarations for /Script/LaunchDaemonMessages
+[2016.12.15-18.35.03:334][  0]LogCompile: Autogenerating boilerplate cpp: LaunchDaemonMessages.generated.cpp
+[2016.12.15-18.35.03:335][  0]LogCompile: Success: Parsed 75 line(s), 5 statement(s) in 0.00 secs.
+[2016.12.15-18.35.03:336][  0]LogCompile: Exporting native class declarations for /Script/EditorStyle
+[2016.12.15-18.35.03:338][  0]LogCompile: Autogenerating boilerplate cpp: EditorStyle.generated.cpp
+[2016.12.15-18.35.03:339][  0]LogCompile: Success: Parsed 140 line(s), 34 statement(s) in 0.00 secs.
+[2016.12.15-18.35.03:340][  0]LogCompile: Exporting native class declarations for /Script/WidgetCarousel
+[2016.12.15-18.35.03:341][  0]LogCompile: Autogenerating boilerplate cpp: WidgetCarousel.generated.cpp
+[2016.12.15-18.35.03:341][  0]LogCompile: Success: Parsed 95 line(s), 6 statement(s) in 0.00 secs.
+[2016.12.15-18.35.03:342][  0]LogCompile: Exporting native class declarations for /Script/UnrealEdMessages
+[2016.12.15-18.35.03:342][  0]LogCompile: Autogenerating boilerplate cpp: UnrealEdMessages.generated.cpp
+[2016.12.15-18.35.03:343][  0]LogCompile: Success: Parsed 64 line(s), 6 statement(s) in 0.00 secs.
+[2016.12.15-18.35.03:345][  0]LogCompile: Exporting native class declarations for /Script/ProfilerMessages
+[2016.12.15-18.35.03:346][  0]LogCompile: Autogenerating boilerplate cpp: ProfilerMessages.generated.cpp
+[2016.12.15-18.35.03:347][  0]LogCompile: Success: Parsed 284 line(s), 13 statement(s) in 0.00 secs.
+[2016.12.15-18.35.03:349][  0]LogCompile: Exporting native class declarations for /Script/SwarmInterface
+[2016.12.15-18.35.03:351][  0]LogCompile: Autogenerating boilerplate cpp: SwarmInterface.generated.cpp
+[2016.12.15-18.35.03:352][  0]LogCompile: Success: Parsed 251 line(s), 15 statement(s) in 0.00 secs.
+[2016.12.15-18.35.04:489][  0]LogCompile: Exporting native class declarations for /Script/Engine
+[2016.12.15-18.35.06:029][  0]LogCompile: Autogenerating boilerplate cpp: Engine.generated.cpp
+[2016.12.15-18.35.06:802][  0]LogCompile: Success: Parsed 141828 line(s), 28843 statement(s) in 2.31 secs.
+[2016.12.15-18.35.06:803][  0]LogCompile: Exporting native class declarations for /Script/MoviePlayer
+[2016.12.15-18.35.06:832][  0]LogCompile: Autogenerating boilerplate cpp: MoviePlayer.generated.cpp
+[2016.12.15-18.35.06:834][  0]LogCompile: Success: Parsed 31 line(s), 9 statement(s) in 0.03 secs.
+[2016.12.15-18.35.06:836][  0]LogCompile: Exporting native class declarations for /Script/HeadMountedDisplay
+[2016.12.15-18.35.06:838][  0]LogCompile: Autogenerating boilerplate cpp: HeadMountedDisplay.generated.cpp
+[2016.12.15-18.35.06:840][  0]LogCompile: Success: Parsed 180 line(s), 40 statement(s) in 0.00 secs.
+[2016.12.15-18.35.06:845][  0]LogCompile: Exporting native class declarations for /Script/MovieScene
+[2016.12.15-18.35.06:850][  0]LogCompile: Autogenerating boilerplate cpp: MovieScene.generated.cpp
+[2016.12.15-18.35.06:866][  0]LogCompile: Success: Parsed 1816 line(s), 277 statement(s) in 0.02 secs.
+[2016.12.15-18.35.06:899][  0]LogCompile: Exporting native class declarations for /Script/MovieSceneTracks
+[2016.12.15-18.35.06:919][  0]LogCompile: Autogenerating boilerplate cpp: MovieSceneTracks.generated.cpp
+[2016.12.15-18.35.06:930][  0]LogCompile: Success: Parsed 3453 line(s), 1139 statement(s) in 0.03 secs.
+[2016.12.15-18.35.06:935][  0]LogCompile: Exporting native class declarations for /Script/LevelSequence
+[2016.12.15-18.35.06:975][  0]LogCompile: Autogenerating boilerplate cpp: LevelSequence.generated.cpp
+[2016.12.15-18.35.06:979][  0]LogCompile: Success: Parsed 594 line(s), 128 statement(s) in 0.04 secs.
+[2016.12.15-18.35.06:990][  0]LogCompile: Exporting native class declarations for /Script/GameplayTags
+[2016.12.15-18.35.07:001][  0]LogCompile: Autogenerating boilerplate cpp: GameplayTags.generated.cpp
+[2016.12.15-18.35.07:015][  0]LogCompile: Success: Parsed 1601 line(s), 212 statement(s) in 0.03 secs.
+[2016.12.15-18.35.07:022][  0]LogCompile: Exporting native class declarations for /Script/GameplayTasks
+[2016.12.15-18.35.07:101][  0]LogCompile: Autogenerating boilerplate cpp: GameplayTasks.generated.cpp
+[2016.12.15-18.35.07:111][  0]LogCompile: Success: Parsed 775 line(s), 244 statement(s) in 0.09 secs.
+[2016.12.15-18.35.07:259][  0]LogCompile: Exporting native class declarations for /Script/AIModule
+[2016.12.15-18.35.07:366][  0]LogCompile: Autogenerating boilerplate cpp: AIModule.generated.cpp
+[2016.12.15-18.35.07:438][  0]LogCompile: Success: Parsed 15111 line(s), 4541 statement(s) in 0.18 secs.
+[2016.12.15-18.35.07:441][  0]LogCompile: Exporting native class declarations for /Script/MaterialShaderQualitySettings
+[2016.12.15-18.35.07:443][  0]LogCompile: Autogenerating boilerplate cpp: MaterialShaderQualitySettings.generated.cpp
+[2016.12.15-18.35.07:445][  0]LogCompile: Success: Parsed 150 line(s), 46 statement(s) in 0.00 secs.
+[2016.12.15-18.35.07:461][  0]LogCompile: Exporting native class declarations for /Script/Foliage
+[2016.12.15-18.35.07:470][  0]LogCompile: Autogenerating boilerplate cpp: Foliage.generated.cpp
+[2016.12.15-18.35.07:476][  0]LogCompile: Success: Parsed 1537 line(s), 470 statement(s) in 0.02 secs.
+[2016.12.15-18.35.07:510][  0]LogCompile: Exporting native class declarations for /Script/Landscape
+[2016.12.15-18.35.07:527][  0]LogCompile: Autogenerating boilerplate cpp: Landscape.generated.cpp
+[2016.12.15-18.35.07:538][  0]LogCompile: Success: Parsed 3748 line(s), 1119 statement(s) in 0.03 secs.
+[2016.12.15-18.35.07:539][  0]LogCompile: Exporting native class declarations for /Script/WebBrowser
+[2016.12.15-18.35.07:540][  0]LogCompile: Autogenerating boilerplate cpp: WebBrowser.generated.cpp
+[2016.12.15-18.35.07:542][  0]LogCompile: Success: Parsed 281 line(s), 9 statement(s) in 0.00 secs.
+[2016.12.15-18.35.07:547][  0]LogCompile: Exporting native class declarations for /Script/CinematicCamera
+[2016.12.15-18.35.07:551][  0]LogCompile: Autogenerating boilerplate cpp: CinematicCamera.generated.cpp
+[2016.12.15-18.35.07:555][  0]LogCompile: Success: Parsed 529 line(s), 136 statement(s) in 0.01 secs.
+[2016.12.15-18.35.07:565][  0]LogCompile: Exporting native class declarations for /Script/MovieSceneCapture
+[2016.12.15-18.35.07:571][  0]LogCompile: Autogenerating boilerplate cpp: MovieSceneCapture.generated.cpp
+[2016.12.15-18.35.07:578][  0]LogCompile: Success: Parsed 873 line(s), 236 statement(s) in 0.01 secs.
+[2016.12.15-18.35.07:694][  0]LogCompile: Exporting native class declarations for /Script/UMG
+[2016.12.15-18.35.07:811][  0]LogCompile: Autogenerating boilerplate cpp: UMG.generated.cpp
+[2016.12.15-18.35.07:882][  0]LogCompile: Success: Parsed 10222 line(s), 2937 statement(s) in 0.19 secs.
+[2016.12.15-18.35.07:884][  0]LogCompile: Exporting native class declarations for /Script/VectorVM
+[2016.12.15-18.35.07:885][  0]LogCompile: Autogenerating boilerplate cpp: VectorVM.generated.cpp
+[2016.12.15-18.35.07:888][  0]LogCompile: Success: Parsed 384 line(s), 43 statement(s) in 0.00 secs.
+[2016.12.15-18.35.07:899][  0]LogCompile: Exporting native class declarations for /Script/Niagara
+[2016.12.15-18.35.07:907][  0]LogCompile: Autogenerating boilerplate cpp: Niagara.generated.cpp
+[2016.12.15-18.35.07:923][  0]LogCompile: Success: Parsed 1341 line(s), 207 statement(s) in 0.02 secs.
+[2016.12.15-18.35.07:949][  0]LogCompile: Exporting native class declarations for /Script/AnimGraphRuntime
+[2016.12.15-18.35.07:962][  0]LogCompile: Autogenerating boilerplate cpp: AnimGraphRuntime.generated.cpp
+[2016.12.15-18.35.07:983][  0]LogCompile: Success: Parsed 2735 line(s), 177 statement(s) in 0.03 secs.
+[2016.12.15-18.35.08:010][  0]LogCompile: Exporting native class declarations for /Script/OnlineSubsystemUtils
+[2016.12.15-18.35.08:033][  0]LogCompile: Autogenerating boilerplate cpp: OnlineSubsystemUtils.generated.cpp
+[2016.12.15-18.35.08:053][  0]LogCompile: Success: Parsed 3203 line(s), 852 statement(s) in 0.04 secs.
+[2016.12.15-18.35.08:056][  0]LogCompile: Exporting native class declarations for /Script/LightPropagationVolumeRuntime
+[2016.12.15-18.35.08:086][  0]LogCompile: Autogenerating boilerplate cpp: LightPropagationVolumeRuntime.generated.cpp
+[2016.12.15-18.35.08:089][  0]LogCompile: Success: Parsed 164 line(s), 11 statement(s) in 0.03 secs.
+[2016.12.15-18.35.08:230][  0]LogCompile: Exporting native class declarations for /Script/GameplayAbilities
+[2016.12.15-18.35.08:361][  0]LogCompile: Autogenerating boilerplate cpp: GameplayAbilities.generated.cpp
+[2016.12.15-18.35.08:439][  0]LogCompile: Success: Parsed 12887 line(s), 2542 statement(s) in 0.21 secs.
+[2016.12.15-18.35.08:443][  0]LogCompile: Exporting native class declarations for /Script/GameLiveStreaming
+[2016.12.15-18.35.08:479][  0]LogCompile: Autogenerating boilerplate cpp: GameLiveStreaming.generated.cpp
+[2016.12.15-18.35.08:483][  0]LogCompile: Success: Parsed 129 line(s), 24 statement(s) in 0.04 secs.
+[2016.12.15-18.35.08:493][  0]LogCompile: Exporting native class declarations for /Script/GeometryCache
+[2016.12.15-18.35.08:561][  0]LogCompile: Autogenerating boilerplate cpp: GeometryCache.generated.cpp
+[2016.12.15-18.35.08:574][  0]LogCompile: Success: Parsed 639 line(s), 177 statement(s) in 0.08 secs.
+[2016.12.15-18.35.08:596][  0]LogCompile: Exporting native class declarations for /Script/GameplayDebugger
+[2016.12.15-18.35.08:605][  0]LogCompile: Autogenerating boilerplate cpp: GameplayDebugger.generated.cpp
+[2016.12.15-18.35.08:611][  0]LogCompile: Success: Parsed 1497 line(s), 565 statement(s) in 0.02 secs.
+[2016.12.15-18.35.08:619][  0]LogCompile: Exporting native class declarations for /Script/FunctionalTesting
+[2016.12.15-18.35.08:625][  0]LogCompile: Autogenerating boilerplate cpp: FunctionalTesting.generated.cpp
+[2016.12.15-18.35.08:640][  0]LogCompile: Success: Parsed 639 line(s), 200 statement(s) in 0.02 secs.
+[2016.12.15-18.35.08:641][  0]LogCompile: Exporting native class declarations for /Script/BlueprintNativeCodeGen
+[2016.12.15-18.35.08:642][  0]LogCompile: Autogenerating boilerplate cpp: BlueprintNativeCodeGen.generated.cpp
+[2016.12.15-18.35.08:644][  0]LogCompile: Success: Parsed 217 line(s), 9 statement(s) in 0.00 secs.
+[2016.12.15-18.35.08:648][  0]LogCompile: Exporting native class declarations for /Script/TargetDeviceServices
+[2016.12.15-18.35.08:650][  0]LogCompile: Autogenerating boilerplate cpp: TargetDeviceServices.generated.cpp
+[2016.12.15-18.35.08:663][  0]LogCompile: Success: Parsed 612 line(s), 18 statement(s) in 0.01 secs.
+[2016.12.15-18.35.08:663][  0]LogCompile: Exporting native class declarations for /Script/InternationalizationSettings
+[2016.12.15-18.35.08:664][  0]LogCompile: Autogenerating boilerplate cpp: InternationalizationSettings.generated.cpp
+[2016.12.15-18.35.08:667][  0]LogCompile: Success: Parsed 28 line(s), 15 statement(s) in 0.00 secs.
+[2016.12.15-18.35.08:668][  0]LogCompile: Exporting native class declarations for /Script/SuperSearch
+[2016.12.15-18.35.08:668][  0]LogCompile: Autogenerating boilerplate cpp: SuperSearch.generated.cpp
+[2016.12.15-18.35.08:671][  0]LogCompile: Success: Parsed 98 line(s), 9 statement(s) in 0.00 secs.
+[2016.12.15-18.35.08:676][  0]LogCompile: Exporting native class declarations for /Script/AITestSuite
+[2016.12.15-18.35.08:682][  0]LogCompile: Autogenerating boilerplate cpp: AITestSuite.generated.cpp
+[2016.12.15-18.35.08:685][  0]LogCompile: Success: Parsed 416 line(s), 183 statement(s) in 0.01 secs.
+[2016.12.15-18.35.08:688][  0]LogCompile: Exporting native class declarations for /Script/HTML5PlatformEditor
+[2016.12.15-18.35.08:722][  0]LogCompile: Autogenerating boilerplate cpp: HTML5PlatformEditor.generated.cpp
+[2016.12.15-18.35.08:725][  0]LogCompile: Success: Parsed 141 line(s), 37 statement(s) in 0.04 secs.
+[2016.12.15-18.35.08:728][  0]LogCompile: Exporting native class declarations for /Script/LogVisualizer
+[2016.12.15-18.35.08:731][  0]LogCompile: Autogenerating boilerplate cpp: LogVisualizer.generated.cpp
+[2016.12.15-18.35.08:734][  0]LogCompile: Success: Parsed 364 line(s), 118 statement(s) in 0.01 secs.
+[2016.12.15-18.35.08:735][  0]LogCompile: Exporting native class declarations for /Script/LinuxTargetPlatform
+[2016.12.15-18.35.08:736][  0]LogCompile: Autogenerating boilerplate cpp: LinuxTargetPlatform.generated.cpp
+[2016.12.15-18.35.08:738][  0]LogCompile: Success: Parsed 30 line(s), 7 statement(s) in 0.00 secs.
+[2016.12.15-18.35.08:739][  0]LogCompile: Exporting native class declarations for /Script/TextureEditor
+[2016.12.15-18.35.08:740][  0]LogCompile: Autogenerating boilerplate cpp: TextureEditor.generated.cpp
+[2016.12.15-18.35.08:743][  0]LogCompile: Success: Parsed 66 line(s), 16 statement(s) in 0.00 secs.
+[2016.12.15-18.35.08:807][  0]LogCompile: Exporting native class declarations for /Script/BlueprintGraph
+[2016.12.15-18.35.08:871][  0]LogCompile: Autogenerating boilerplate cpp: BlueprintGraph.generated.cpp
+[2016.12.15-18.35.08:905][  0]LogCompile: Success: Parsed 8725 line(s), 3015 statement(s) in 0.10 secs.
+[2016.12.15-18.35.08:908][  0]LogCompile: Exporting native class declarations for /Script/GraphEditor
+[2016.12.15-18.35.08:910][  0]LogCompile: Autogenerating boilerplate cpp: GraphEditor.generated.cpp
+[2016.12.15-18.35.08:913][  0]LogCompile: Success: Parsed 281 line(s), 80 statement(s) in 0.01 secs.
+[2016.12.15-18.35.08:914][  0]LogCompile: Exporting native class declarations for /Script/NewsFeed
+[2016.12.15-18.35.08:915][  0]LogCompile: Autogenerating boilerplate cpp: NewsFeed.generated.cpp
+[2016.12.15-18.35.08:918][  0]LogCompile: Success: Parsed 90 line(s), 21 statement(s) in 0.00 secs.
+[2016.12.15-18.35.08:922][  0]LogCompile: Exporting native class declarations for /Script/StatsViewer
+[2016.12.15-18.35.08:926][  0]LogCompile: Autogenerating boilerplate cpp: StatsViewer.generated.cpp
+[2016.12.15-18.35.08:943][  0]LogCompile: Success: Parsed 374 line(s), 95 statement(s) in 0.02 secs.
+[2016.12.15-18.35.08:944][  0]LogCompile: Exporting native class declarations for /Script/SceneOutliner
+[2016.12.15-18.35.08:945][  0]LogCompile: Autogenerating boilerplate cpp: SceneOutliner.generated.cpp
+[2016.12.15-18.35.08:947][  0]LogCompile: Success: Parsed 29 line(s), 8 statement(s) in 0.00 secs.
+[2016.12.15-18.35.08:952][  0]LogCompile: Exporting native class declarations for /Script/Sequencer
+[2016.12.15-18.35.08:954][  0]LogCompile: Autogenerating boilerplate cpp: Sequencer.generated.cpp
+[2016.12.15-18.35.08:957][  0]LogCompile: Success: Parsed 871 line(s), 145 statement(s) in 0.01 secs.
+[2016.12.15-18.35.08:958][  0]LogCompile: Exporting native class declarations for /Script/HierarchicalLODOutliner
+[2016.12.15-18.35.08:960][  0]LogCompile: Autogenerating boilerplate cpp: HierarchicalLODOutliner.generated.cpp
+[2016.12.15-18.35.08:962][  0]LogCompile: Success: Parsed 43 line(s), 17 statement(s) in 0.00 secs.
+[2016.12.15-18.35.08:964][  0]LogCompile: Exporting native class declarations for /Script/PixelInspectorModule
+[2016.12.15-18.35.08:965][  0]LogCompile: Autogenerating boilerplate cpp: PixelInspectorModule.generated.cpp
+[2016.12.15-18.35.08:968][  0]LogCompile: Success: Parsed 148 line(s), 33 statement(s) in 0.00 secs.
+[2016.12.15-18.35.08:971][  0]LogCompile: Exporting native class declarations for /Script/SequenceRecorder
+[2016.12.15-18.35.08:975][  0]LogCompile: Autogenerating boilerplate cpp: SequenceRecorder.generated.cpp
+[2016.12.15-18.35.08:978][  0]LogCompile: Success: Parsed 264 line(s), 79 statement(s) in 0.01 secs.
+[2016.12.15-18.35.08:980][  0]LogCompile: Exporting native class declarations for /Script/MovieSceneTools
+[2016.12.15-18.35.08:982][  0]LogCompile: Autogenerating boilerplate cpp: MovieSceneTools.generated.cpp
+[2016.12.15-18.35.08:984][  0]LogCompile: Success: Parsed 92 line(s), 34 statement(s) in 0.00 secs.
+[2016.12.15-18.35.08:985][  0]LogCompile: Exporting native class declarations for /Script/HardwareTargeting
+[2016.12.15-18.35.08:986][  0]LogCompile: Autogenerating boilerplate cpp: HardwareTargeting.generated.cpp
+[2016.12.15-18.35.08:989][  0]LogCompile: Success: Parsed 81 line(s), 21 statement(s) in 0.00 secs.
+[2016.12.15-18.35.08:991][  0]LogCompile: Exporting native class declarations for /Script/AddContentDialog
+[2016.12.15-18.35.08:992][  0]LogCompile: Autogenerating boilerplate cpp: AddContentDialog.generated.cpp
+[2016.12.15-18.35.08:995][  0]LogCompile: Success: Parsed 407 line(s), 18 statement(s) in 0.00 secs.
+[2016.12.15-18.35.08:997][  0]LogCompile: Exporting native class declarations for /Script/GameProjectGeneration
+[2016.12.15-18.35.08:999][  0]LogCompile: Autogenerating boilerplate cpp: GameProjectGeneration.generated.cpp
+[2016.12.15-18.35.09:002][  0]LogCompile: Success: Parsed 159 line(s), 43 statement(s) in 0.01 secs.
+[2016.12.15-18.35.09:006][  0]LogCompile: Exporting native class declarations for /Script/Kismet
+[2016.12.15-18.35.09:008][  0]LogCompile: Autogenerating boilerplate cpp: Kismet.generated.cpp
+[2016.12.15-18.35.09:011][  0]LogCompile: Success: Parsed 510 line(s), 66 statement(s) in 0.01 secs.
+[2016.12.15-18.35.09:011][  0]LogCompile: Exporting native class declarations for /Script/ContentBrowser
+[2016.12.15-18.35.09:012][  0]LogCompile: Autogenerating boilerplate cpp: ContentBrowser.generated.cpp
+[2016.12.15-18.35.09:015][  0]LogCompile: Success: Parsed 17 line(s), 7 statement(s) in 0.00 secs.
+[2016.12.15-18.35.09:016][  0]LogCompile: Exporting native class declarations for /Script/ConfigEditor
+[2016.12.15-18.35.09:017][  0]LogCompile: Autogenerating boilerplate cpp: ConfigEditor.generated.cpp
+[2016.12.15-18.35.09:029][  0]LogCompile: Success: Parsed 47 line(s), 18 statement(s) in 0.01 secs.
+[2016.12.15-18.35.09:071][  0]LogCompile: Exporting native class declarations for /Script/AnimGraph
+[2016.12.15-18.35.09:097][  0]LogCompile: Autogenerating boilerplate cpp: AnimGraph.generated.cpp
+[2016.12.15-18.35.09:123][  0]LogCompile: Success: Parsed 3269 line(s), 1382 statement(s) in 0.05 secs.
+[2016.12.15-18.35.09:124][  0]LogCompile: Exporting native class declarations for /Script/OnlineBlueprintSupport
+[2016.12.15-18.35.09:127][  0]LogCompile: Autogenerating boilerplate cpp: OnlineBlueprintSupport.generated.cpp
+[2016.12.15-18.35.09:129][  0]LogCompile: Success: Parsed 86 line(s), 34 statement(s) in 0.01 secs.
+[2016.12.15-18.35.09:134][  0]LogCompile: Exporting native class declarations for /Script/Localization
+[2016.12.15-18.35.09:138][  0]LogCompile: Autogenerating boilerplate cpp: Localization.generated.cpp
+[2016.12.15-18.35.09:146][  0]LogCompile: Success: Parsed 480 line(s), 64 statement(s) in 0.01 secs.
+[2016.12.15-18.35.09:299][  0]LogCompile: Exporting native class declarations for /Script/UnrealEd
+[2016.12.15-18.35.09:472][  0]LogCompile: Autogenerating boilerplate cpp: UnrealEd.generated.cpp
+[2016.12.15-18.35.09:541][  0]LogCompile: Success: Parsed 22060 line(s), 5560 statement(s) in 0.24 secs.
+[2016.12.15-18.35.09:544][  0]LogCompile: Exporting native class declarations for /Script/TranslationEditor
+[2016.12.15-18.35.09:569][  0]LogCompile: Autogenerating boilerplate cpp: TranslationEditor.generated.cpp
+[2016.12.15-18.35.09:572][  0]LogCompile: Success: Parsed 323 line(s), 51 statement(s) in 0.03 secs.
+[2016.12.15-18.35.09:578][  0]LogCompile: Exporting native class declarations for /Script/IntroTutorials
+[2016.12.15-18.35.09:583][  0]LogCompile: Autogenerating boilerplate cpp: IntroTutorials.generated.cpp
+[2016.12.15-18.35.09:599][  0]LogCompile: Success: Parsed 567 line(s), 108 statement(s) in 0.02 secs.
+[2016.12.15-18.35.09:601][  0]LogCompile: Exporting native class declarations for /Script/SequenceRecorderSections
+[2016.12.15-18.35.09:602][  0]LogCompile: Autogenerating boilerplate cpp: SequenceRecorderSections.generated.cpp
+[2016.12.15-18.35.09:605][  0]LogCompile: Success: Parsed 91 line(s), 23 statement(s) in 0.00 secs.
+[2016.12.15-18.35.09:613][  0]LogCompile: Exporting native class declarations for /Script/LandscapeEditor
+[2016.12.15-18.35.09:617][  0]LogCompile: Autogenerating boilerplate cpp: LandscapeEditor.generated.cpp
+[2016.12.15-18.35.09:622][  0]LogCompile: Success: Parsed 668 line(s), 133 statement(s) in 0.01 secs.
+[2016.12.15-18.35.09:624][  0]LogCompile: Exporting native class declarations for /Script/WorldBrowser
+[2016.12.15-18.35.09:625][  0]LogCompile: Autogenerating boilerplate cpp: WorldBrowser.generated.cpp
+[2016.12.15-18.35.09:628][  0]LogCompile: Success: Parsed 116 line(s), 32 statement(s) in 0.00 secs.
+[2016.12.15-18.35.09:629][  0]LogCompile: Exporting native class declarations for /Script/ReferenceViewer
+[2016.12.15-18.35.09:631][  0]LogCompile: Autogenerating boilerplate cpp: ReferenceViewer.generated.cpp
+[2016.12.15-18.35.09:634][  0]LogCompile: Success: Parsed 142 line(s), 81 statement(s) in 0.00 secs.
+[2016.12.15-18.35.09:649][  0]LogCompile: Exporting native class declarations for /Script/VREditor
+[2016.12.15-18.35.09:659][  0]LogCompile: Autogenerating boilerplate cpp: VREditor.generated.cpp
+[2016.12.15-18.35.09:677][  0]LogCompile: Success: Parsed 1297 line(s), 386 statement(s) in 0.03 secs.
+[2016.12.15-18.35.09:680][  0]LogCompile: Exporting native class declarations for /Script/GameplayTagsEditor
+[2016.12.15-18.35.09:708][  0]LogCompile: Autogenerating boilerplate cpp: GameplayTagsEditor.generated.cpp
+[2016.12.15-18.35.09:711][  0]LogCompile: Success: Parsed 316 line(s), 146 statement(s) in 0.03 secs.
+[2016.12.15-18.35.09:713][  0]LogCompile: Exporting native class declarations for /Script/EditorLiveStreaming
+[2016.12.15-18.35.09:714][  0]LogCompile: Autogenerating boilerplate cpp: EditorLiveStreaming.generated.cpp
+[2016.12.15-18.35.09:717][  0]LogCompile: Success: Parsed 84 line(s), 17 statement(s) in 0.00 secs.
+[2016.12.15-18.35.09:718][  0]LogCompile: Exporting native class declarations for /Script/DestructibleMeshEditor
+[2016.12.15-18.35.09:719][  0]LogCompile: Autogenerating boilerplate cpp: DestructibleMeshEditor.generated.cpp
+[2016.12.15-18.35.09:721][  0]LogCompile: Success: Parsed 31 line(s), 13 statement(s) in 0.00 secs.
+[2016.12.15-18.35.09:723][  0]LogCompile: Exporting native class declarations for /Script/Cascade
+[2016.12.15-18.35.09:724][  0]LogCompile: Autogenerating boilerplate cpp: Cascade.generated.cpp
+[2016.12.15-18.35.09:727][  0]LogCompile: Success: Parsed 96 line(s), 27 statement(s) in 0.00 secs.
+[2016.12.15-18.35.09:733][  0]LogCompile: Exporting native class declarations for /Script/UMGEditor
+[2016.12.15-18.35.09:737][  0]LogCompile: Autogenerating boilerplate cpp: UMGEditor.generated.cpp
+[2016.12.15-18.35.09:741][  0]LogCompile: Success: Parsed 445 line(s), 126 statement(s) in 0.01 secs.
+[2016.12.15-18.35.09:744][  0]LogCompile: Exporting native class declarations for /Script/Matinee
+[2016.12.15-18.35.09:750][  0]LogCompile: Autogenerating boilerplate cpp: Matinee.generated.cpp
+[2016.12.15-18.35.09:753][  0]LogCompile: Success: Parsed 397 line(s), 141 statement(s) in 0.01 secs.
+[2016.12.15-18.35.09:754][  0]LogCompile: Exporting native class declarations for /Script/PhAT
+[2016.12.15-18.35.09:755][  0]LogCompile: Autogenerating boilerplate cpp: PhAT.generated.cpp
+[2016.12.15-18.35.09:758][  0]LogCompile: Success: Parsed 78 line(s), 37 statement(s) in 0.00 secs.
+[2016.12.15-18.35.09:762][  0]LogCompile: Exporting native class declarations for /Script/GeometryMode
+[2016.12.15-18.35.09:768][  0]LogCompile: Autogenerating boilerplate cpp: GeometryMode.generated.cpp
+[2016.12.15-18.35.09:771][  0]LogCompile: Success: Parsed 575 line(s), 181 statement(s) in 0.01 secs.
+[2016.12.15-18.35.09:773][  0]LogCompile: Exporting native class declarations for /Script/FoliageEdit
+[2016.12.15-18.35.09:775][  0]LogCompile: Autogenerating boilerplate cpp: FoliageEdit.generated.cpp
+[2016.12.15-18.35.09:778][  0]LogCompile: Success: Parsed 117 line(s), 44 statement(s) in 0.00 secs.
+[2016.12.15-18.35.09:781][  0]LogCompile: Exporting native class declarations for /Script/Blutility
+[2016.12.15-18.35.09:785][  0]LogCompile: Autogenerating boilerplate cpp: Blutility.generated.cpp
+[2016.12.15-18.35.09:788][  0]LogCompile: Success: Parsed 226 line(s), 59 statement(s) in 0.01 secs.
+[2016.12.15-18.35.09:791][  0]LogCompile: Exporting native class declarations for /Script/NiagaraEditor
+[2016.12.15-18.35.09:792][  0]LogCompile: Autogenerating boilerplate cpp: NiagaraEditor.generated.cpp
+[2016.12.15-18.35.09:795][  0]LogCompile: Success: Parsed 248 line(s), 45 statement(s) in 0.00 secs.
+[2016.12.15-18.35.09:797][  0]LogCompile: Exporting native class declarations for /Script/MergeActors
+[2016.12.15-18.35.09:798][  0]LogCompile: Autogenerating boilerplate cpp: MergeActors.generated.cpp
+[2016.12.15-18.35.09:801][  0]LogCompile: Success: Parsed 64 line(s), 13 statement(s) in 0.00 secs.
+[2016.12.15-18.35.09:803][  0]LogCompile: Exporting native class declarations for /Script/AIGraph
+[2016.12.15-18.35.09:817][  0]LogCompile: Autogenerating boilerplate cpp: AIGraph.generated.cpp
+[2016.12.15-18.35.09:820][  0]LogCompile: Success: Parsed 376 line(s), 105 statement(s) in 0.02 secs.
+[2016.12.15-18.35.09:825][  0]LogCompile: Exporting native class declarations for /Script/BehaviorTreeEditor
+[2016.12.15-18.35.09:833][  0]LogCompile: Autogenerating boilerplate cpp: BehaviorTreeEditor.generated.cpp
+[2016.12.15-18.35.09:837][  0]LogCompile: Success: Parsed 757 line(s), 331 statement(s) in 0.01 secs.
+[2016.12.15-18.35.09:839][  0]LogCompile: Exporting native class declarations for /Script/EnvironmentQueryEditor
+[2016.12.15-18.35.09:842][  0]LogCompile: Autogenerating boilerplate cpp: EnvironmentQueryEditor.generated.cpp
+[2016.12.15-18.35.09:845][  0]LogCompile: Success: Parsed 183 line(s), 96 statement(s) in 0.01 secs.
+[2016.12.15-18.35.09:846][  0]LogCompile: Exporting native class declarations for /Script/GameplayTasksEditor
+[2016.12.15-18.35.09:847][  0]LogCompile: Autogenerating boilerplate cpp: GameplayTasksEditor.generated.cpp
+[2016.12.15-18.35.09:849][  0]LogCompile: Success: Parsed 47 line(s), 28 statement(s) in 0.00 secs.
+[2016.12.15-18.35.09:852][  0]LogCompile: Exporting native class declarations for /Script/GameplayAbilitiesEditor
+[2016.12.15-18.35.09:855][  0]LogCompile: Autogenerating boilerplate cpp: GameplayAbilitiesEditor.generated.cpp
+[2016.12.15-18.35.09:858][  0]LogCompile: Success: Parsed 147 line(s), 58 statement(s) in 0.01 secs.
+[2016.12.15-18.35.09:860][  0]LogCompile: Exporting native class declarations for /Script/GeometryCacheEd
+[2016.12.15-18.35.09:861][  0]LogCompile: Autogenerating boilerplate cpp: GeometryCacheEd.generated.cpp
+[2016.12.15-18.35.09:864][  0]LogCompile: Success: Parsed 54 line(s), 23 statement(s) in 0.00 secs.
+[2016.12.15-18.35.09:870][  0]LogCompile: Exporting native class declarations for /Script/MediaAssets
+[2016.12.15-18.35.09:874][  0]LogCompile: Autogenerating boilerplate cpp: MediaAssets.generated.cpp
+[2016.12.15-18.35.09:879][  0]LogCompile: Success: Parsed 589 line(s), 157 statement(s) in 0.01 secs.
+[2016.12.15-18.35.09:911][  0]LogCompile: Exporting native class declarations for /Script/Paper2D
+[2016.12.15-18.35.09:958][  0]LogCompile: Autogenerating boilerplate cpp: Paper2D.generated.cpp
+[2016.12.15-18.35.09:982][  0]LogCompile: Success: Parsed 3176 line(s), 856 statement(s) in 0.07 secs.
+[2016.12.15-18.35.09:984][  0]LogCompile: Exporting native class declarations for /Script/UdpMessaging
+[2016.12.15-18.35.10:005][  0]LogCompile: Autogenerating boilerplate cpp: UdpMessaging.generated.cpp
+[2016.12.15-18.35.10:008][  0]LogCompile: Success: Parsed 172 line(s), 20 statement(s) in 0.02 secs.
+[2016.12.15-18.35.10:009][  0]LogCompile: Exporting native class declarations for /Script/ArchVisCharacter
+[2016.12.15-18.35.10:011][  0]LogCompile: Autogenerating boilerplate cpp: ArchVisCharacter.generated.cpp
+[2016.12.15-18.35.10:014][  0]LogCompile: Success: Parsed 127 line(s), 47 statement(s) in 0.00 secs.
+[2016.12.15-18.35.10:016][  0]LogCompile: Exporting native class declarations for /Script/CableComponent
+[2016.12.15-18.35.10:018][  0]LogCompile: Autogenerating boilerplate cpp: CableComponent.generated.cpp
+[2016.12.15-18.35.10:021][  0]LogCompile: Success: Parsed 140 line(s), 40 statement(s) in 0.01 secs.
+[2016.12.15-18.35.10:022][  0]LogCompile: Exporting native class declarations for /Script/CustomMeshComponent
+[2016.12.15-18.35.10:023][  0]LogCompile: Autogenerating boilerplate cpp: CustomMeshComponent.generated.cpp
+[2016.12.15-18.35.10:026][  0]LogCompile: Success: Parsed 60 line(s), 15 statement(s) in 0.00 secs.
+[2016.12.15-18.35.10:033][  0]LogCompile: Exporting native class declarations for /Script/ProceduralMeshComponent
+[2016.12.15-18.35.10:038][  0]LogCompile: Autogenerating boilerplate cpp: ProceduralMeshComponent.generated.cpp
+[2016.12.15-18.35.10:054][  0]LogCompile: Success: Parsed 281 line(s), 43 statement(s) in 0.02 secs.
+[2016.12.15-18.35.10:055][  0]LogCompile: Exporting native class declarations for /Script/SlateRemote
+[2016.12.15-18.35.10:056][  0]LogCompile: Autogenerating boilerplate cpp: SlateRemote.generated.cpp
+[2016.12.15-18.35.10:058][  0]LogCompile: Success: Parsed 31 line(s), 9 statement(s) in 0.00 secs.
+[2016.12.15-18.35.10:059][  0]LogCompile: Exporting native class declarations for /Script/UObjectPlugin
+[2016.12.15-18.35.10:060][  0]LogCompile: Autogenerating boilerplate cpp: UObjectPlugin.generated.cpp
+[2016.12.15-18.35.10:063][  0]LogCompile: Success: Parsed 38 line(s), 9 statement(s) in 0.00 secs.
+[2016.12.15-18.35.10:070][  0]LogCompile: Exporting native class declarations for /Script/Paper2DEditor
+[2016.12.15-18.35.10:104][  0]LogCompile: Autogenerating boilerplate cpp: Paper2DEditor.generated.cpp
+[2016.12.15-18.35.10:108][  0]LogCompile: Success: Parsed 698 line(s), 226 statement(s) in 0.04 secs.
+[2016.12.15-18.35.10:111][  0]LogCompile: Exporting native class declarations for /Script/PaperSpriteSheetImporter
+[2016.12.15-18.35.10:113][  0]LogCompile: Autogenerating boilerplate cpp: PaperSpriteSheetImporter.generated.cpp
+[2016.12.15-18.35.10:116][  0]LogCompile: Success: Parsed 93 line(s), 39 statement(s) in 0.00 secs.
+[2016.12.15-18.35.10:117][  0]LogCompile: Exporting native class declarations for /Script/PaperTiledImporter
+[2016.12.15-18.35.10:134][  0]LogCompile: Autogenerating boilerplate cpp: PaperTiledImporter.generated.cpp
+[2016.12.15-18.35.10:136][  0]LogCompile: Success: Parsed 383 line(s), 35 statement(s) in 0.02 secs.
+[2016.12.15-18.35.10:138][  0]LogCompile: Exporting native class declarations for /Script/LightPropagationVolumeEditor
+[2016.12.15-18.35.10:139][  0]LogCompile: Autogenerating boilerplate cpp: LightPropagationVolumeEditor.generated.cpp
+[2016.12.15-18.35.10:142][  0]LogCompile: Success: Parsed 17 line(s), 8 statement(s) in 0.00 secs.
+[2016.12.15-18.35.10:143][  0]LogCompile: Exporting native class declarations for /Script/PluginBrowser
+[2016.12.15-18.35.10:145][  0]LogCompile: Autogenerating boilerplate cpp: PluginBrowser.generated.cpp
+[2016.12.15-18.35.10:148][  0]LogCompile: Success: Parsed 95 line(s), 25 statement(s) in 0.00 secs.
+[2016.12.15-18.35.10:149][  0]LogCompile: Exporting native class declarations for /Script/SpeedTreeImporter
+[2016.12.15-18.35.10:151][  0]LogCompile: Autogenerating boilerplate cpp: SpeedTreeImporter.generated.cpp
+[2016.12.15-18.35.10:153][  0]LogCompile: Success: Parsed 50 line(s), 17 statement(s) in 0.00 secs.
+[2016.12.15-18.35.10:154][  0]LogCompile: Exporting native class declarations for /Script/SuperSearchEditor
+[2016.12.15-18.35.10:164][  0]LogCompile: Autogenerating boilerplate cpp: SuperSearchEditor.generated.cpp
+[2016.12.15-18.35.10:167][  0]LogCompile: Success: Parsed 29 line(s), 12 statement(s) in 0.01 secs.
+[2016.12.15-18.35.10:169][  0]LogCompile: Exporting native class declarations for /Script/MediaPlayerEditor
+[2016.12.15-18.35.10:186][  0]LogCompile: Autogenerating boilerplate cpp: MediaPlayerEditor.generated.cpp
+[2016.12.15-18.35.10:205][  0]LogCompile: Success: Parsed 118 line(s), 40 statement(s) in 0.04 secs.
+[2016.12.15-18.35.10:207][  0]LogCompile: Exporting native class declarations for /Script/LevelSequenceEditor
+[2016.12.15-18.35.10:213][  0]LogCompile: Autogenerating boilerplate cpp: LevelSequenceEditor.generated.cpp
+[2016.12.15-18.35.10:217][  0]LogCompile: Success: Parsed 125 line(s), 29 statement(s) in 0.01 secs.
+[2016.12.15-18.35.10:217][  0]LogCompile: Exporting native class declarations for /Script/edoeri
+[2016.12.15-18.35.10:220][  0]LogCompile: Autogenerating boilerplate cpp: edoeri.generated.cpp
+[2016.12.15-18.35.10:225][  0]LogCompile: Exported updated C++ header: /home/cortana/Projects/UnrealProjects/edoeri/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/edoeri/edoeriGameMode.generated.h
+[2016.12.15-18.35.10:225][  0]LogCompile: Exported updated C++ header: /home/cortana/Projects/UnrealProjects/edoeri/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/edoeri/edoeriClasses.h
+[2016.12.15-18.35.10:226][  0]LogCompile: Exported updated C++ header: /home/cortana/Projects/UnrealProjects/edoeri/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/edoeri/edoeri.generated.dep.h
+[2016.12.15-18.35.10:226][  0]LogCompile: Exported updated C++ header: /home/cortana/Projects/UnrealProjects/edoeri/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/edoeri/edoeri.generated.cpp
+[2016.12.15-18.35.10:226][  0]LogCompile: Success: Parsed 20 line(s), 6 statement(s) in 0.01 secs.
+[2016.12.15-18.35.10:228][  0]LogCompile: Preparsing 124 modules took 1.04 seconds
+[2016.12.15-18.35.10:228][  0]LogCompile: Parsing took 2.36 seconds
+[2016.12.15-18.35.10:228][  0]LogCompile: Code generation took 4.79 seconds
+[2016.12.15-18.35.10:228][  0]LogCompile: ScriptPlugin overhead was 0.00 seconds
+[2016.12.15-18.35.10:228][  0]LogCompile: Macroize time was 0.10 seconds
+[2016.12.15-18.35.10:306][  0]LogObj: Freed 0b from 0 cluster array pools.
+Reflection code generated for edoeriEditor in 8.7995915 seconds
+@progress pop
+/bin/sh  -c '/bin/sh "/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Development/FixDependencies.sh" && touch "/home/cortana/UnrealEngine-4.12.5-release/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Development/UE4Editor.link"'
+Performing 824 actions (4 in parallel)
+[2/824] Compile Module.Json.cpp
+[4/824] Compile Module.CoreUObject.1_of_5.cpp
+[3/824] Compile Module.Projects.cpp
+[1/824] Compile CorePrivatePCH.h
+[5/824] Compile Module.Core.3_of_8.cpp
+[6/824] Compile Module.Core.2_of_8.cpp
+[7/824] Compile Module.Core.1_of_8.cpp
+[8/824] Compile Module.Core.6_of_8.cpp
+[9/824] Compile Module.Core.5_of_8.cpp
+[10/824] Compile Module.Core.4_of_8.cpp
+[11/824] Compile Module.Core.7_of_8.cpp
+[12/824] Compile Module.Core.8_of_8.cpp
+[13/824] Compile Module.CoreUObject.3_of_5.cpp
+[14/824] Compile Module.CoreUObject.4_of_5.cpp
+[15/824] Compile Module.CoreUObject.2_of_5.cpp
+[16/824] Compile Module.CoreUObject.5_of_5.cpp
+[17/824] Compile CoreUObject.generated.cpp
+[18/824] Compile EnginePrivate.h
+[19/824] Compile Module.InputCore.cpp
+[20/824] Compile InputCore.generated.cpp
+[21/824] Compile Module.SlateCore.cpp
+[22/824] Link libUE4Editor-Core.so
+[23/824] Compile SlateCore.generated.cpp
+[24/824] Link libUE4Editor-Json.so
+[25/824] Link libUE4Editor-Projects.so
+[26/824] Link libUE4Editor-CoreUObject.so
+[27/824] Compile Module.Slate.3_of_4.cpp
+[28/824] Compile Module.Slate.2_of_4.cpp
+[29/824] Link libUE4Editor-InputCore.so
+[30/824] Compile Module.Slate.4_of_4.cpp
+[31/824] Compile Module.Slate.1_of_4.cpp
+[32/824] Compile Slate.generated.cpp
+[33/824] Link libUE4Editor-SlateCore.so
+[34/824] Compile UnrealEd.h
+[35/824] Compile Module.SandboxFile.cpp
+[36/824] Compile Module.Sockets.cpp
+[37/824] Compile Module.RHI.cpp
+[38/824] Link libUE4Editor-SandboxFile.so
+[39/824] Link libUE4Editor-Sockets.so
+[40/824] Compile Module.RenderCore.cpp
+[41/824] Link libUE4Editor-RHI.so
+[42/824] Compile Module.ImageCore.cpp
+[43/824] Link libUE4Editor-RenderCore.so
+[44/824] Compile Module.MessagingRpc.cpp
+[45/824] Link libUE4Editor-ImageCore.so
+[46/824] Compile MessagingRpc.generated.cpp
+[47/824] Compile Module.ShaderCore.cpp
+[48/824] Compile Module.PortalServices.cpp
+[49/824] Link libUE4Editor-Slate.so
+[50/824] Compile PortalServices.generated.cpp
+[51/824] Compile Module.HTTP.cpp
+[52/824] Compile Module.UnrealEd.20_of_21.cpp
+[53/824] Compile Module.UnrealEd.18_of_21.cpp
+[54/824] Compile Module.UnrealEd.13_of_21.cpp
+[55/824] Compile Module.UnrealEd.5_of_21.cpp
+[56/824] Compile Module.UnrealEd.1_of_21.cpp
+[57/824] Compile Module.UnrealEd.16_of_21.cpp
+[58/824] Compile Module.UnrealEd.19_of_21.cpp
+[59/824] Compile Module.UnrealEd.15_of_21.cpp
+[60/824] Compile Module.UnrealEd.12_of_21.cpp
+[61/824] Compile Module.UnrealEd.8_of_21.cpp
+[62/824] Compile Module.UnrealEd.4_of_21.cpp
+[63/824] Compile Module.UnrealEd.6_of_21.cpp
+[64/824] Compile Module.UnrealEd.9_of_21.cpp
+[65/824] Compile Module.UnrealEd.2_of_21.cpp
+[66/824] Compile Module.UnrealEd.7_of_21.cpp
+[67/824] Compile Module.UnrealEd.14_of_21.cpp
+[68/824] Compile Module.UnrealEd.10_of_21.cpp
+[69/824] Compile Module.UnrealEd.3_of_21.cpp
+[70/824] Compile Module.UnrealEd.17_of_21.cpp
+[71/824] Compile Module.UnrealEd.11_of_21.cpp
+[72/824] Compile UnrealEd.generated.cpp
+[73/824] Compile Module.UnrealEd.21_of_21.cpp
+[74/824] Compile Module.Networking.cpp
+[75/824] Link libUE4Editor-ShaderCore.so
+[76/824] Link libUE4Editor-MessagingRpc.so
+[77/824] Compile Module.AppFramework.cpp
+[78/824] Compile Module.Messaging.cpp
+[79/824] Compile Module.EngineMessages.cpp
+[80/824] Compile EngineMessages.generated.cpp
+[81/824] Compile Module.ReliabilityHandlerComponent.cpp
+[82/824] Link libUE4Editor-PortalServices.so
+[83/824] Link libUE4Editor-Networking.so
+[84/824] Link libUE4Editor-HTTP.so
+[85/824] Compile Module.AIModule.2_of_3.cpp
+[86/824] Compile Module.Kismet.3_of_5.cpp
+[87/824] Link libUE4Editor-UnrealEd.so
+[88/824] Compile Module.Kismet.1_of_5.cpp
+[89/824] Compile Module.Kismet.2_of_5.cpp
+[90/824] Compile Module.Kismet.4_of_5.cpp
+[91/824] Compile Module.Kismet.5_of_5.cpp
+[92/824] Compile Kismet.generated.cpp
+[93/824] Compile Module.LogVisualizer.cpp
+[95/824] Compile UMG.generated.cpp
+[94/824] Compile Module.UMG.cpp
+[96/824] Compile LogVisualizer.generated.cpp
+[97/824] Compile Module.Niagara.cpp
+[98/824] Compile Niagara.generated.cpp
+[99/824] Compile Module.CollisionAnalyzer.cpp
+[100/824] Compile Module.CinematicCamera.cpp
+[101/824] Compile CinematicCamera.generated.cpp
+[102/824] Compile AIModule.generated.

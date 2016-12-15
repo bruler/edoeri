@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="ParallelExecutor">
+  <File Name="/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Programs/ParallelExecutor/ParallelExecutor.Target.cs" />
+  <File Name="/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Programs/ParallelExecutor/ParallelExecutor.Build.cs" />
+  <VirtualDirectory Name="Private">
+    <File Name="/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Programs/ParallelExecutor/Private/BuildGraph.cpp" />
+    <File Name="/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Programs/ParallelExecutor/Private/BuildGraph.h" />
+    <File Name="/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Programs/ParallelExecutor/Private/ParallelExecutor.cpp" />
+    <File Name="/home/cortana/UnrealEngine-4.12.5-release/Engine/Source/Programs/ParallelExecutor/Private/ParallelExecutor.h" />
+  </VirtualDirectory>
+  <Settings>
+    <Settings />
+    <Configuration Name="Debug">
+      <General WorkingDirectory="/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/Linux" Command="./ParallelExecutor-Linux-Debug" />
+      <General WorkingDirectory="/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/Linux" Command="./ParallelExecutor-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe ParallelExecutor Linux Debug -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe ParallelExecutor Linux Debug -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe ParallelExecutor Linux Debug -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject" -clean
+mono UnrealBuildTool.exe ParallelExecutor Linux Debug -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General WorkingDirectory="/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/Linux" Command="./ParallelExecutor-Linux-DebugGame" />
+      <General WorkingDirectory="/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/Linux" Command="./ParallelExecutor-Linux-DebugGame" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe ParallelExecutor Linux DebugGame -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe ParallelExecutor Linux DebugGame -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe ParallelExecutor Linux DebugGame -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject" -clean
+mono UnrealBuildTool.exe ParallelExecutor Linux DebugGame -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General WorkingDirectory="/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/Linux" Command="./ParallelExecutor" />
+      <General WorkingDirectory="/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/Linux" Command="./ParallelExecutor" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe ParallelExecutor Linux Development -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe ParallelExecutor Linux Development -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe ParallelExecutor Linux Development -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject" -clean
+mono UnrealBuildTool.exe ParallelExecutor Linux Development -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General WorkingDirectory="/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/Linux" Command="./ParallelExecutor-Linux-Shipping" />
+      <General WorkingDirectory="/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/Linux" Command="./ParallelExecutor-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe ParallelExecutor Linux Shipping -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe ParallelExecutor Linux Shipping -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe ParallelExecutor Linux Shipping -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject" -clean
+mono UnrealBuildTool.exe ParallelExecutor Linux Shipping -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General WorkingDirectory="/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/Linux" Command="./ParallelExecutor-Linux-Test" />
+      <General WorkingDirectory="/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/Linux" Command="./ParallelExecutor-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe ParallelExecutor Linux Test -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe ParallelExecutor Linux Test -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe ParallelExecutor Linux Test -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject" -clean
+mono UnrealBuildTool.exe ParallelExecutor Linux Test -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+</CodeLite_Project>

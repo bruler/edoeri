@@ -1,0 +1,3 @@
+/home/cortana/Projects/UnrealProjects/edoeri/Source/edoeri/edoeri.Build.cs
+/home/cortana/Projects/UnrealProjects/edoeri/Source/edoeri.Target.cs
+/home/cortana/Projects/UnrealProjects/edoeri/Source/edoeriEditor.Target.cs

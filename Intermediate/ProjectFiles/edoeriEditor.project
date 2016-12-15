@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="edoeriEditor">
+  <File Name="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject" />
+  <VirtualDirectory Name="Source">
+    <File Name="/home/cortana/Projects/UnrealProjects/edoeri/Source/edoeri.Target.cs" />
+    <File Name="/home/cortana/Projects/UnrealProjects/edoeri/Source/edoeriEditor.Target.cs" />
+    <VirtualDirectory Name="edoeri">
+      <File Name="/home/cortana/Projects/UnrealProjects/edoeri/Source/edoeri/edoeri.Build.cs" />
+      <File Name="/home/cortana/Projects/UnrealProjects/edoeri/Source/edoeri/edoeri.cpp" />
+      <File Name="/home/cortana/Projects/UnrealProjects/edoeri/Source/edoeri/edoeri.h" />
+      <File Name="/home/cortana/Projects/UnrealProjects/edoeri/Source/edoeri/edoeriGameMode.cpp" />
+      <File Name="/home/cortana/Projects/UnrealProjects/edoeri/Source/edoeri/edoeriGameMode.h" />
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Config">
+    <File Name="/home/cortana/Projects/UnrealProjects/edoeri/Config/DefaultEditor.ini" />
+    <File Name="/home/cortana/Projects/UnrealProjects/edoeri/Config/DefaultEngine.ini" />
+    <File Name="/home/cortana/Projects/UnrealProjects/edoeri/Config/DefaultGame.ini" />
+  </VirtualDirectory>
+  <Settings>
+    <Settings />
+    <Configuration Name="Debug">
+      <General CommandArguments="&quot;/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject&quot; -game" WorkingDirectory="/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <General CommandArguments="&quot;/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject&quot; -game" WorkingDirectory="/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe edoeriEditor Linux Debug -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe edoeriEditor Linux Debug -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe edoeriEditor Linux Debug -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject" -clean
+mono UnrealBuildTool.exe edoeriEditor Linux Debug -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General CommandArguments="&quot;/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject&quot; -game" WorkingDirectory="/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <General CommandArguments="&quot;/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject&quot; -game" WorkingDirectory="/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe edoeriEditor Linux DebugGame -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe edoeriEditor Linux DebugGame -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe edoeriEditor Linux DebugGame -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject" -clean
+mono UnrealBuildTool.exe edoeriEditor Linux DebugGame -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General CommandArguments="&quot;/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject&quot; -game" WorkingDirectory="/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <General CommandArguments="&quot;/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject&quot; -game" WorkingDirectory="/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe edoeriEditor Linux Development -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe edoeriEditor Linux Development -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe edoeriEditor Linux Development -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject" -clean
+mono UnrealBuildTool.exe edoeriEditor Linux Development -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General CommandArguments="&quot;/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject&quot; -game" WorkingDirectory="/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <General CommandArguments="&quot;/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject&quot; -game" WorkingDirectory="/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe edoeriEditor Linux Shipping -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe edoeriEditor Linux Shipping -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe edoeriEditor Linux Shipping -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject" -clean
+mono UnrealBuildTool.exe edoeriEditor Linux Shipping -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General CommandArguments="&quot;/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject&quot; -game" WorkingDirectory="/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <General CommandArguments="&quot;/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject&quot; -game" WorkingDirectory="/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/cortana/UnrealEngine-4.12.5-release/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe edoeriEditor Linux Test -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe edoeriEditor Linux Test -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe edoeriEditor Linux Test -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject" -clean
+mono UnrealBuildTool.exe edoeriEditor Linux Test -project="/home/cortana/Projects/UnrealProjects/edoeri/edoeri.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+</CodeLite_Project>
